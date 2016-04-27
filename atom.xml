@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-27T05:09:21.553Z</updated>
+  <updated>2016-04-27T08:17:44.772Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,82 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2016/04/27/HTML5%E6%96%B0%E7%89%B9%E6%80%A7%E7%9C%8BB-S%E7%BC%BA%E9%99%B7/"/>
+    <id>http://yoursite.com/2016/04/27/HTML5新特性看B-S缺陷/</id>
+    <published>2016-04-27T08:17:44.772Z</published>
+    <updated>2016-04-27T08:17:44.772Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;从-HTML5-新特性看B-S缺陷&quot;&gt;&lt;a href=&quot;#从-HTML5-新特性看B-S缺陷&quot; class=&quot;headerlink&quot; title=&quot;从 HTML5 新特性看B/S缺陷&quot;&gt;&lt;/a&gt;从 HTML5 新特性看B/S缺陷&lt;/h1&gt;&lt;hr&gt;
+&lt;h3 id=&quot;B-S-架构&quot;&gt;&lt;a href=&quot;#B-S-架构&quot; class=&quot;headerlink&quot; title=&quot;B/S 架构&quot;&gt;&lt;/a&gt;&lt;strong&gt;B/S 架构&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;随着 Internet 和 WWW 的流行，以往的主机/终端和 C/S 都无法满足当前的全球网络开放、互连、信息随处可见和信息共享的新要求，于是就出现了 B/S 型模式，即浏览器/服务器结构。它是 C/S 架构的一种改进，可以说属于三层 C/S 架构。&lt;br&gt; &lt;img src=&quot;../images/B-S.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt; &amp;emsp;&amp;emsp;B/S 架构与 C/S 结构不同，其客户端不需要安装专门的软件，只需要浏览器即可，浏览器通过 Web 服务器与数据库进行交互，可以方便的在不同平台下工作；服务器端可采用高性能计算机，并安装 Oracle 、 Sybase 、 Informix 等大型数据库。 B/S 结构简化了客户端的工作。&lt;br&gt;  &amp;emsp;&amp;emsp;而这种 B/S 架构的表示层主是使用 HTML 开发的网页作为系统的显示界面，与用户进行交互。这种 HTML 所开发的网页有其先天上的优势。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML 所开发的网页具有跨平台的优势；&lt;/li&gt;
+&lt;li&gt;HTML 所开发的网页有部署优势；&lt;/li&gt;
+&lt;li&gt;HTML 所开发的网页开发简单，维护和升级都很便捷。&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;HTML5&quot;&gt;&lt;a href=&quot;#HTML5&quot; class=&quot;headerlink&quot; title=&quot;HTML5&quot;&gt;&lt;/a&gt;&lt;strong&gt;HTML5&lt;/strong&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;HTML4 困境&lt;br&gt; &amp;emsp;&amp;emsp;虽然使用 HTML 开发的网页作为系统显示界面有种种优，但是，在强大的程语也无法永远能保证满足用户的需求。 HTML 目前的版本是 1999 年推的 HTML4 ，但是经过这么多年，已经慢慢跟不上用户需求的变化了，开始出现了许多不足。为了弥补HTM4 无满足用户的需求的种种不足， W3C 这个制定 HTML 标的国际组织，目前正将 HTML4 升级到新版本 HTML5 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;HTML5 升级&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;==&lt;strong&gt;狭义的 HTML5&lt;/strong&gt;==&lt;br&gt;狭义的 HTML5 指 HTML 下一个主要的修订版本，是 W3C 制定的标准，目前还在发展中,在 HTML  4.01 和 XHTML 1.0 标准基础上， HTML5 标准增加和修改了一些标签元素，其中多媒体相关的有&lt;code&gt;&amp;lt;video&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;audio&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;，同时集成了SVG内容，数据内容的元素有&lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;nav&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;menu&amp;gt;&lt;/code&gt;等，还提供了新的 API ，如 2D 绘图(Canvas)，离线存储(LocalStorage)，加强版的cookie(WebStorage)，拖拽，通讯(WebSockets)，浏览历史管理，文件 API (上传下载本地存储)，位置 API (Geolocation)等。&lt;br&gt;&lt;img src=&quot;../images/2440571026-57025de10a525_articlex.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;==&lt;strong&gt;广义的 HTML5&lt;/strong&gt;==&lt;br&gt;广义的 HTML5 包括 HTML ,  CSS 和 JavaScript 在内的一套技术组合，其目标是减少浏览器对于插件的依赖，提供丰富的RIA （富客户端）应用。所以 CSS3 ，  SVG ，  WebGL ，  Touch 事件，动画支持等都属于 HTML5 技术范围&lt;br&gt;&lt;img src=&quot;../images/%E5%B9%BF%E4%B9%89HTML5.png&quot; alt=&quot;&quot; title=&quot;广义HTML5.png&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;从HTML5新特性看B-S缺陷&quot;&gt;&lt;a href=&quot;#从HTML5新特性看B-S缺陷&quot; class=&quot;headerlink&quot; title=&quot;从HTML5新特性看B/S缺陷&quot;&gt;&lt;/a&gt;&lt;strong&gt;从HTML5新特性看B/S缺陷&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;HTML5 标准的推出正是为解决当前 HTML 版本 HTML4 的许多不足。而这些不足也正体现了当前基于 HTML 的B/S架构的缺陷。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;图像描绘&lt;ul&gt;
+&lt;li&gt;==HTML4==&lt;br&gt;在 HTML4 的环境下，若无定义用来处理图描绘的 API ，要将各种系统内容以图片、图表等方显示在网页上时，较常见的是：&lt;br&gt;  i. 服务器支持&lt;pre&gt;&lt;code&gt;所谓的服务器支持，就是将图像描绘功能交给后台服务器来提供。
+采用这种方式就需频繁的与服务器进行通信，这样除了要耗费大量的传输时间之外，在一些需要快速显示信变化的需求，例如游戏画面时，就无法提供良好的用户体验。
+&lt;/code&gt;&lt;/pre&gt;  ii. 图像组合&lt;pre&gt;&lt;code&gt;所谓的图像组合，是将一个图像的各种不同信息都拆解成一个一个的图像碎片，然后再依照系统信息内容，去组合这些碎片，最终在网页上显示动态产生的图像信息。比如圆形指针时钟的实现，可以用 12 个时针图片、 60 个分针图片，依照时间组合去选择对应的图片组合，就能够生成对应的时钟图像。但这种方式的缺陷是显而易见的，在一些需要更精细处理图像的场景，会让图片的需求量暴增。
+&lt;/code&gt;&lt;/pre&gt;这些方式虽然可以创建出传达系统内容的图片、图表，但在后台却为整个系统的开发与后期维护，埋下了许多技术隐患。&lt;/li&gt;
+&lt;li&gt;==HTML5==&lt;br&gt;而HTML5 &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;标签的出现解决了当前 HTML 版本在图像描绘上的乏力。开发人员可以使用这个标签所提供的功能完成位图的剪裁、编辑工作，也可以使用这个标签在网页上描绘各种几何图形。而&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;标签这个 API 是以一个标签的方式，让开发人员来将图像描绘功能加入到HTML文件中，并在 DOM 对象模型中提供对应的 DOM  节点，提供开发人员取得节点来操作节点的方法、监听节点的时间，非常方便。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;影音播放&lt;ul&gt;
+&lt;li&gt;==HTML4==&lt;br&gt;在 HTML4 的环境下，没有定义专门的用来播放多媒体信息的功能，但是另外提供了 API 的功能，让开发人员能够外挂各种影音播放器来播放影音。比较常见的外挂有下列几种：&lt;br&gt;  i. 外挂 Real Player 、 Media Player&lt;br&gt;  这种方式在跨浏览器支持度上有各种兼容问题，但在跨浏览器之外还有一个更严重的问题是：影音格式的种类非常繁多，播放软并不是每种影音格式都能支持。这极大的限制了开发人员必须要使用特定的文件格式、特定的播放软件来提供影音信息，而且在部署时必须要定义出每种浏览器要安装哪些外挂软件，光设想就是一个很大的负担。&lt;br&gt;  ii. 外挂 Flash 、Java Applet 、Silverlight&lt;br&gt;  这种方式在跨浏览器的支持上也有各种兼容问题，但主要的问题是：要学习一套跟网页完全不同的开发语言，才能开发这些程序代码。只有先学会一堆跟网页开发完全不同领域的知识，才能开发出用来播放影音的程序代码。这除了需要较多的开发技术知识之外，对于后续交接给其他开发人员维护造成很大的困扰，毕竟不是每个人都学过系统选用的开发平台。&lt;/li&gt;
+&lt;li&gt;==HTML5==&lt;br&gt;video 、 audio  标签是 HTML5 中提供给开发人员完成视频播放、音频播放功能的 API ，开发人员可以使用这个标签所提供的功能完成视频、音频的播放、暂停等工作。 HTML5 提供这两个与视频、音频播放相关的API之后，开发人员不需要考虑浏览器平台支持哪种播放器，只要使用统一的 video 、 audio 标签来播放这个视频，剩下的工作就交给运行 video 、 audio 标签的浏览器去完成。而 video 、 audio 标签这个 API 是以标签的方式，让开发人员将视频功能加入到 HTML 文件中，并在 DOM 对象模型中提供对应的 DOM 节点，提供开发人员获取节点来操作节点的方法、响应节点事件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据存储&lt;ul&gt;
+&lt;li&gt;==HTML4==&lt;br&gt;在 HTML4 的环境下，可以选择浏览器提供的 cookie 功能将数据保存在客户端，或者是通过数据传功能将存储在远程服务器等方式，用来完成数据存储的工作。这两种方式，虽然可以完成数据存储的功能，但是在后台中则是为整系统的开发与后续维护埋下许多隐患。因为：&lt;br&gt;  i. 数据存储在 cookie&lt;br&gt;  虽然 cookie 数据存储在本地的浏览器中，也能用 Javascript 去访问，但是实际上每次运行服务器上的网页时，都会将这份 cookie 数据传给服务器，然后再接收新的 cookie 数据来存。这种运行方式，必然导致当cookie的数据内容膨胀到一定程度的时候，就会大量占用网络带宽，让整个网站的运行效率变得非常低，严重还可能导致整个网站的运行瘫痪。&lt;br&gt;  ii. 数据存储在远程服务器&lt;br&gt;  所谓的将数据存储在远程服务器，就是通过网络传输，将要存储的数据存入后端服务器，并在需要时再通过网络传输来取得这些数据。这样的方式能够使用后端服务器所提供的各种数据存储功能，例如用数据库存各种数据，而且因为是有需要的时候再去取，所以不用担心占用大量带宽的问题。但是以系统架的角度来看，浏览器上运的网页是定位在用户界面层，而后端服务器则是定位在数据逻辑层，基本上应该由用户界面层来显示数据逻辑层提供的数据。而将数据存储在服务器的设计方式，则是反过来要求数据逻辑层要为用户界面层服务提供所需的功能。这样的设计在存储的数据类型多到一定程度的时候，就会变成数据逻辑层里有很大一块都是在提供各种用户界面层所需要的数据存储 API ，整个系统就会渐渐变得杂乱无章并且难以维护。&lt;/li&gt;
+&lt;li&gt;==HTML5==&lt;br&gt;localStorage 对象、 sessionStorage 对象是 HTML5  中提供给开法人员完成数据存储的API。而这两个对象是以 HTML API 的方式来提供使用，开发人员可以使用静态引用的方式来取得 window 对象的 localStorage  属性、 sessionStorage 属性，这两个属性中就分别提供封装数据存储功能的 localStorager 对象、 sessionStorage 对象。使用这两个对象所封装的功能，能在网页中完成各种数据存入、数据取出、数据更改通知等功能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据传输&lt;ul&gt;
+&lt;li&gt;==HTML4==&lt;br&gt;在 HTML4 的环境下，可以选择 XMLHttpRequest 对象、定时 Reload 网页等方式，来完成这个数据传输的工作。&lt;br&gt;  i. 定时 Reload 网页&lt;pre&gt;&lt;code&gt;所谓的定时 Reload 网页，是使用 frame 、 iframe 等标签在网页内打一个不可见的HTML文件，并且定时 Reload 这份文件向远程服务器端取得系统数据。在 Reload 文件获取完毕之后，使用文件中自带的 JavaScript 程序代码，将取得的系统数据显示在网页中来与用户互动，这样就能简单地完成从远程服务器传输数据到浏览器的工作。但是这种方式的缺点也很明显，因为是一直重复地重新读取网页，每次读取数据都要经过传输 HTML 文件、分析 HTML 、运行 HTML 文件等流程，这些流程使得系统的效率低下。
+&lt;/code&gt;&lt;/pre&gt;  ii. XMLHttpRequest 对象&lt;pre&gt;&lt;code&gt;XMLHttpRequest 对象是一组封装HTTP通信功能的对象，开发人员可以使用J avaScript 程序代码来操作 XMLHttpRequest 对象，通过HTTP通信协议来和远程服务器取得数据。定时的使用 XMLHttpRequest 对象来和远程服务器取得数据，就能轻松的完成从远程服务器传输数据到浏览器的工作。
+这种方式因为是一直重复的请求数据，就算远程服务器没有数据要传输到浏览器，在这个架构下还是不能停止请求数据的操作。这就造成了网络效率的低下。虽然有“长轮询(long-polling)”的解决方案，但是在很多量小而变化多的数据要传输到浏览器的情景下，每次长轮询请求都会马上取得一个新的数据返回，这时长轮询的运行效率就与定轮询一样了。甚至在这种数据量小而变化多的情况下，这种方式底层的 HTTP 表头的内容比实际要传输的数据内容还要多的现象，这样就造成了资源的极大浪费。
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;==HTMl5==&lt;br&gt;  i. 服务器推送&lt;pre&gt;&lt;code&gt;EventSource 对象是 HTML5  中提供给开发人员使用服务器推送功能的API，开发人员可以通过这个对象所提供的功能，完成服务器推送功能的建立连接、数据接受等工作。 EventSource 对象主要是在系统底层将复杂的服务器推送机制封装为开发人员熟悉的事件、方法，让开发人员可以在浏览器端通过服务器推送机制，来接收服务器主动传输的数据。
+&lt;/code&gt;&lt;/pre&gt;  ii. 双向传输&lt;pre&gt;&lt;code&gt;EventSource 对象使用来提供服务器主动传输数据到浏览器的功能。 HTML5 中为满足双向传输的系统需求，引入了 WebSocket 的通信机制。在 WebSockt 通信协议中，因为服务器与浏览器都可以主动传输数据给对方，这就避免了原来必须要在系统架构内加入两套不同的通信机制才能完成双向传输的问题。
+ WebSocket 业务模型
+&lt;/code&gt;&lt;/pre&gt; &lt;img src=&quot;../images/15671127979_acba8f202d_o.png&quot; alt=&quot;&quot; title=&quot;15671127979_acba8f202d_o.png&quot;&gt;&lt;h3 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;&lt;strong&gt;总结&lt;/strong&gt;&lt;/h3&gt;目前 HTML5 已经可以解决很多问题，多少可以用到一部分，而面向未来互联网，基于“B/S”的构架，终端的HTML5的兼容解决方案必然会出现，到时目前B/S存在的诸多缺陷都可以很好的解决。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;  *[HTML]: Hyper Text Markup Language&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;从-HTML5-新特性看B-S缺陷&quot;&gt;&lt;a href=&quot;#从-HTML5-新特性看B-S缺陷&quot; class=&quot;headerlink&quot; title=&quot;从 HTML5 新特性看B/S缺陷&quot;&gt;&lt;/a&gt;从 HTML5 新特性看B/S缺陷&lt;/h1&gt;&lt;hr&gt;
+&lt;h3 id=&quot;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
