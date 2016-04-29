@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://QCU266.github.io/"/>
-  <updated>2016-04-28T04:24:32.328Z</updated>
+  <updated>2016-04-29T05:59:50.832Z</updated>
   <id>https://QCU266.github.io/</id>
   
   <author>
@@ -16,15 +16,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>从 HTML5 新特性看C/S缺陷</title>
-    <link href="https://QCU266.github.io/2016/04/28/%E4%BB%8EHTML5%E6%96%B0%E7%89%B9%E6%80%A7%E7%9C%8BB-S%E7%BC%BA%E9%99%B7/"/>
-    <id>https://QCU266.github.io/2016/04/28/从HTML5新特性看B-S缺陷/</id>
-    <published>2016-04-28T04:24:32.361Z</published>
-    <updated>2016-04-28T04:24:32.328Z</updated>
+    <title>从HTML5新特性看B/S缺陷</title>
+    <link href="https://QCU266.github.io/2016/04/29/%E4%BB%8EHTML5%E6%96%B0%E7%89%B9%E6%80%A7%E7%9C%8BB-S%E7%BC%BA%E9%99%B7/"/>
+    <id>https://QCU266.github.io/2016/04/29/从HTML5新特性看B-S缺陷/</id>
+    <published>2016-04-28T18:00:00.000Z</published>
+    <updated>2016-04-29T05:59:50.832Z</updated>
     
     <content type="html">
 &lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
-&lt;title&gt; HTML5看B/S缺陷 &lt;/title&gt;
+&lt;title&gt; 从HTML5新特性看B/S缺陷---小书匠,在线编辑器,MARKDOWN,Evernote,文件版本&lt;/title&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
@@ -32,51 +32,51 @@
 &lt;link rel=&quot;stylesheet&quot; href=&quot;http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css&quot;&gt;
 &lt;style type=&quot;text/css&quot;&gt;
 a:focus {
-  outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+outline: thin dotted #333;
+outline: 5px auto -webkit-focus-ring-color;
+outline-offset: -2px;
 }
 
 a:hover,
 a:active {
-  outline: 0;
+outline: 0;
 }
 a {
-  color: #0088cc;
-  text-decoration: none;
+color: #0088cc;
+text-decoration: none;
 }
 
 a:hover {
-  color: #005580;
-  text-decoration: underline;
+color: #005580;
+text-decoration: underline;
 }
 
 p {
-  margin: 0 0 1.1em;
+margin: 0 0 1.1em;
 }
 
 small {
-  font-size: 85%;
+font-size: 85%;
 }
 
 strong {
-  font-weight: bold;
+font-weight: bold;
 }
 
 em {
-  font-style: italic;
+font-style: italic;
 }
 
 cite {
-  font-style: normal;
+font-style: normal;
 }
 
 
 h1.story_title {
-	margin: 0.7em 0;
+margin: 0.7em 0;
 }
 .story_tags {
-	margin: 0 0 1.2em;
+margin: 0 0 1.2em;
 }
 h1,
 h2,
@@ -84,138 +84,138 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0.5em 0;
-	margin: 1.0em 0 .6em 0;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 20px;
-  color: inherit;
-  text-rendering: optimizelegibility;
+margin: 0.5em 0;
+margin: 1.0em 0 .6em 0;
+font-family: inherit;
+font-weight: 500;
+line-height: 20px;
+color: inherit;
+text-rendering: optimizelegibility;
 }
 
 h1,
 h2,
 h3 {
-  line-height: 40px;
+line-height: 40px;
 }
 
 h1 {
-  font-size: 38.5px;
+font-size: 38.5px;
 }
 
 h2 {
-  font-size: 31.5px;
+font-size: 31.5px;
 }
 
 h3 {
-  font-size: 24.5px;
+font-size: 24.5px;
 }
 
 h4 {
-  font-size: 17.5px;
+font-size: 17.5px;
 }
 
 h5 {
-  font-size: 14px;
+font-size: 14px;
 }
 
 h6 {
-  font-size: 11.9px;
+font-size: 11.9px;
 }
 
 ul,
 ol {
-  padding: 0;
-  margin: 0 0 10px 35px;
+padding: 0;
+margin: 0 0 10px 35px;
 }
 
 ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
 
 dl {
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 dt,
 dd {
-  line-height: 20px;
+line-height: 20px;
 }
 
 dt {
-  font-weight: bold;
+font-weight: bold;
 }
 
 dd {
-  margin-left: 10px;
+margin-left: 10px;
 }
 
 hr {
-  margin: 20px 0;
-  border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
+margin: 20px 0;
+border: 0;
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #ffffff;
 }
 
 abbr[title],
 abbr[data-original-title] {
-  cursor: help;
-  border-bottom: 1px dotted #999999;
+cursor: help;
+border-bottom: 1px dotted #999999;
 }
 
 
 blockquote {
-  padding: 0 0 0 15px;
-  margin: 0 0 20px;
-  border-left: 5px solid #dddddd;
+padding: 0 0 0 15px;
+margin: 0 0 20px;
+border-left: 5px solid #dddddd;
 }
 
 blockquote p {
-  margin-bottom: 0;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 25px;
+margin-bottom: 0;
+font-size: 16px;
+font-weight: 300;
+line-height: 25px;
 }
 
 blockquote small {
-  display: block;
-  line-height: 20px;
-  color: #999999;
+display: block;
+line-height: 20px;
+color: #999999;
 }
 
 blockquote small:before {
-  content: &#39;\2014 \00A0&#39;;
+content: &#39;\2014 \00A0&#39;;
 }
 q:before,
 q:after,
 blockquote:before,
 blockquote:after {
-  content: &quot;&quot;;
+content: &quot;&quot;;
 }
 
 address {
-  display: block;
-  margin-bottom: 20px;
-  font-style: normal;
-  line-height: 20px;
+display: block;
+margin-bottom: 20px;
+font-style: normal;
+line-height: 20px;
 }
 img {
-	height: auto;
-	max-width: 100%;
-	vertical-align: middle;
-	border: 0;
+height: auto;
+max-width: 100%;
+vertical-align: middle;
+border: 0;
 }
 
 table {
-  max-width: 100%;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
-	border: 1px solid rgba(34,36,38,.15);
+max-width: 100%;
+background-color: transparent;
+border-collapse: collapse;
+border-spacing: 0;
+border: 1px solid rgba(34,36,38,.15);
 }
 .tag.label{
 display: inline-block;
@@ -235,25 +235,25 @@ font-size: 0.7428rem;
 }
 
 .table {
-  width: 100%;
-  margin-bottom: 20px;
+width: 100%;
+margin-bottom: 20px;
 }
 
 .table th,
 .table td {
-  padding: 8px;
-  line-height: 20px;
-  text-align: left;
-  vertical-align: top;
-  border-top: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: left;
+vertical-align: top;
+border-top: 1px solid #dddddd;
 }
 
 .table th {
-  font-weight: bold;
+font-weight: bold;
 }
 
 .table thead th {
-  vertical-align: bottom;
+vertical-align: bottom;
 }
 
 .table caption + thead tr:first-child th,
@@ -262,517 +262,580 @@ font-size: 0.7428rem;
 .table colgroup + thead tr:first-child td,
 .table thead:first-child tr:first-child th,
 .table thead:first-child tr:first-child td {
-  border-top: 0;
+border-top: 0;
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #dddddd;
+border-top: 2px solid #dddddd;
 }
 
 .table .table {
-  background-color: #ffffff;
+background-color: #ffffff;
 }
 
 
 .table-striped tbody &gt; tr:nth-child(odd) &gt; td,
 .table-striped tbody &gt; tr:nth-child(odd) &gt; th {
-  background-color: #f9f9f9;
+background-color: #f9f9f9;
 }
 
 .table-celled.table tr td,.table-celled.table tr th {
-    border-left: 1px solid rgba(34,36,38,.1)
+border-left: 1px solid rgba(34,36,38,.1)
 }
 
 .table-celled.table tr td:first-child,.table-celled.table tr th:first-child {
-    border-left: none
+border-left: none
 }
 
 .toc ul {
-	list-style: none;
+list-style: none;
 }
 p {
-	line-height: 1.6;
+line-height: 1.6;
 }
 body&gt;p {
-  margin-bottom: 1.8em;
+margin-bottom: 1.8em;
 }
 body&gt;p&gt;img.center,
 body&gt;p&gt;a&gt;img.center {
-  display: block;
-  margin: 0 auto;
-  background-color: rgba(128,128,128,0.3);
+display: block;
+margin: 0 auto;
+background-color: rgba(128,128,128,0.3);
 }
 body {
-	font-family: &#39;Helvetica Neue&#39;, Helvetica, Tahoma, Arial, &#39;Hiragino Sans GB&#39;, STHeiti, &quot;Microsoft YaHei&quot;, &quot;微软雅黑&quot;, &#39;WenQuanYi Micro Hei&#39;, STXihei, &quot;华文细黑&quot;, Heiti, &quot;黑体&quot;, SimSun, &quot;宋体&quot;, Song, sans-serif;
-  font-size: 1.15em;
-  font-weight: 100;
+font-family: &#39;Helvetica Neue&#39;, Helvetica, Tahoma, Arial, &#39;Hiragino Sans GB&#39;, STHeiti, &quot;Microsoft YaHei&quot;, &quot;微软雅黑&quot;, &#39;WenQuanYi Micro Hei&#39;, STXihei, &quot;华文细黑&quot;, Heiti, &quot;黑体&quot;, SimSun, &quot;宋体&quot;, Song, sans-serif;
+font-size: 1.15em;
+font-weight: 100;
 //  line-height: 1.8em;
-  color: #2f2f2f;
+color: #2f2f2f;
 }
 em.cjk_emphasis{
-	font-style: normal;
-	font-family: Georgia,&quot;Times New Roman&quot;,Times,&quot;楷体&quot;,&quot;AR PL UKai CN&quot;, &quot;NSimSun&quot;,&quot;Songti SC&quot;,&quot;SimSun&quot;,serif!important;
+font-style: normal;
+font-family: Georgia,&quot;Times New Roman&quot;,Times,&quot;楷体&quot;,&quot;AR PL UKai CN&quot;, &quot;NSimSun&quot;,&quot;Songti SC&quot;,&quot;SimSun&quot;,serif!important;
 }
 body dt,
 body dd {
-  line-height: 1.35em;
+line-height: 1.35em;
 }
 body code, body .xiaoshujiang_code {
 //	background-color: #D6DBDF;
-	border: 0;
-  border-radius: 4px;
+border: 0;
+border-radius: 4px;
 //  color: #2C3E50;
-  font-size: 90%;
+font-size: 90%;
 //  padding: 2px 4px;
 }
 code {
-	background-color: #D6DBDF;
-	border-radius: 4px;
-	color: #2C3E50;
-	padding: 2px 4px;
+background-color: #D6DBDF;
+border-radius: 4px;
+color: #2C3E50;
+padding: 2px 4px;
 }
 .xiaoshujiang_code ol{
-	margin-bottom: 0px;
+margin-bottom: 0px;
 }
 body h1 {
-  line-height: 1.6;
+line-height: 1.6;
 }
 body h2 {
-  line-hieght: 1.1;
+line-hieght: 1.1;
 }
 body h3 {
-  line-height: 1.1;
+line-height: 1.1;
 }
 
 /**
- * Treeview syntax highlighting based on highlight.js
- * Copyright (c) 2014-2015, Asciidocfx Team, (MIT Licensed)
- * https://github.com/asciidocfx/highlight-treeview.js
- */
+* Treeview syntax highlighting based on highlight.js
+* Copyright (c) 2014-2015, Asciidocfx Team, (MIT Licensed)
+* https://github.com/asciidocfx/highlight-treeview.js
+*/
 .language-treeview.hljs{
-  position: relative;
+position: relative;
 }
 .hljs-folder,
 .hljs-hiddenfile,
 .hljs-file {
-    position: relative;
-    vertical-align: top;
-    display: inline-block;
-    height: 16px;
+position: relative;
+vertical-align: top;
+display: inline-block;
+height: 16px;
 }
 .hljs-folder:before,
 .hljs-file:before,
 .hljs-hiddenfile:before {
-    top: 0;
-    content: &#39;&#39;;
-    width: 14px;
-    height: 12px;
-    margin-top: 0px;
-    margin-right: 3px;
-    position: relative;
-    display: inline-block;
-    background-size: 14px;
-    background-repeat: no-repeat;
+top: 0;
+content: &#39;&#39;;
+width: 14px;
+height: 12px;
+margin-top: 0px;
+margin-right: 3px;
+position: relative;
+display: inline-block;
+background-size: 14px;
+background-repeat: no-repeat;
 }
 .hljs-file:before,
 .hljs-hiddenfile:before {
-    height: 14px;
-    margin-left: 1px;
+height: 14px;
+margin-left: 1px;
 }
 .hljs-hiddenfile {
-    opacity: 0.6;
+opacity: 0.6;
 }
 .hljs-file.photo:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c5&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c5&quot;;
 }
 .hljs-file.plain:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f016&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f016&quot;;
 }
 .hljs-file.source:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c9&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c9&quot;;
 }
 .hljs-file.archive:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c6&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c6&quot;;
 }
 .hljs-file.audio:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c7&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c7&quot;;
 }
 .hljs-file.video:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c8&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c8&quot;;
 }
 .hljs-file.pdf:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c1&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c1&quot;;
 }
 .hljs-file.xls:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c3&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c3&quot;;
 }
 .hljs-file.doc:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c2&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c2&quot;;
 }
 .hljs-file.ppt:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c4&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c4&quot;;
 }
 .hljs-folder:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f114&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f114&quot;;
 }
 .hljs-hiddenfile:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f016&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f016&quot;;
 }
 .hljs-tvline {
-    margin-left: 6px;
-    position: absolute;
-    text-indent: -99em;
-    padding-bottom: 8px;
-    vertical-align: top;
-    display: inline-block;
-    border-left-width: 1px;
-    border-left-style: solid;
-    border-left-color: rgb(94, 144, 117);
+margin-left: 6px;
+position: absolute;
+text-indent: -99em;
+padding-bottom: 8px;
+vertical-align: top;
+display: inline-block;
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: rgb(94, 144, 117);
 }
 .hljs-folder-branch {
-    width: 8px;
-    height: 8px;
-    margin-top: -1px;
-    margin-left: 6px;
-    text-indent: -99em;
-    position: relative;
-    vertical-align: top;
-    display: inline-block;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(94, 144, 117);
+width: 8px;
+height: 8px;
+margin-top: -1px;
+margin-left: 6px;
+text-indent: -99em;
+position: relative;
+vertical-align: top;
+display: inline-block;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: rgb(94, 144, 117);
 }
 .hljs-folder-branch.win {
-    width: 14px;
-    margin-right: 2px;
+width: 14px;
+margin-right: 2px;
 }
 .hljs-folder-last-branch {
-    height: 7px;
-    width: 7px;
-    margin-left: 6px;
-    text-indent: -99em;
-    position: relative;
-    vertical-align: top;
-    display: inline-block;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(94, 144, 117);
-    border-left-width: 1px;
-    border-left-style: solid;
-    border-left-color: rgb(94, 144, 117);
+height: 7px;
+width: 7px;
+margin-left: 6px;
+text-indent: -99em;
+position: relative;
+vertical-align: top;
+display: inline-block;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: rgb(94, 144, 117);
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: rgb(94, 144, 117);
 }
 .hljs-folder-last-branch.win {
-    width: 13px;
-    margin-right: 2px;
+width: 13px;
+margin-right: 2px;
 }
 
 
 /**
- * Treeview syntax highlighting based on highlight.js
- */
+* Treeview syntax highlighting based on highlight.js
+*/
 
 
 .mark{
-	border: 0;
-  background-color: #ddf3e7;
-  border-radius: 4px;
-  color: #29754d;
-  font-size: 90%;
-  padding: 2px 4px;
+border: 0;
+background-color: #ddf3e7;
+border-radius: 4px;
+color: #29754d;
+font-size: 90%;
+padding: 2px 4px;
 }
 .line_mark{
-	border: 1px dashed #3A4C42;
+border: 1px dashed #3A4C42;
 }
 code .mark, .xiaoshujiang_code .mark{
-	border-radius: 0px;
-	font-size: initial;
-	padding: initial;
+border-radius: 0px;
+font-size: initial;
+padding: initial;
 }
 a.attachment{
-	background-color: #ecf0f3;
-	border: 1px solid #bec6cb;
-	display: inline-block;
-	padding: 5px;
-	margin: 2px;
-	min-width: 250px;
+background-color: #ecf0f3;
+border: 1px solid #bec6cb;
+display: inline-block;
+padding: 5px;
+margin: 2px;
+min-width: 250px;
 }
 a.attachment i.fa{
-	font-size: 3em;
-  float: left;
-  margin-right: 0.2em;
+font-size: 3em;
+float: left;
+margin-right: 0.2em;
 }
 a.attachment .filename{
-	vertical-align: top;
-  text-align: left;
-  font-weight: bold;
+vertical-align: top;
+text-align: left;
+font-weight: bold;
 }
 a.attachment .filesize{
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  opacity: .6;
-  font-size: 80%;
-  white-space: nowrap;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+opacity: .6;
+font-size: 80%;
+white-space: nowrap;
 }
 .checkbox .checked{
-	text-decoration: line-through;
+text-decoration: line-through;
 }
 .flow-chart, .sequence-diagram{
-	text-align: center;
+text-align: center;
 }
 .plot, .plot-image{
-	text-align: center;
-	min-height: 200px;
-	min-width: 200px;
+text-align: center;
+min-height: 200px;
+min-width: 200px;
 }
 
 pre, .xiaoshujiang_pre {
-	line-height: initial !important;
-	word-wrap: break-word;
-	word-break: break-word;
+line-height: initial !important;
+word-wrap: break-word;
+word-break: break-word;
 }
 
 .xiaoshujiang_pre {
-	margin: 1em 0px;
-	font-family: monospace;
-	white-space: pre;
+margin: 1em 0px;
+font-family: monospace;
+white-space: pre;
 }
 
 .story_align_left, .story_align_left .story_image_container {
-	text-align: left;
+text-align: left;
 }
 .story_align_right, .story_align_right .story_image_container {
-	text-align: right;
+text-align: right;
 }
 .story_align_center, .story_align_center .story_image_container {
-	text-align: center;
+text-align: center;
 }
 .story_align_justify, .story_align_justify .story_image_container {
-	text-align: justify;
+text-align: justify;
 }
 
 
 /** 
- * code line nums
- */
+* code line nums
+*/
 code.hljs.code_linenums, .xiaoshujiang_code.hljs.code_linenums{
-	position: relative;
+position: relative;
 }
 .ol_linenums{
-	padding: 0px;
-	margin-left: 30px;
-	border-left: 1px solid #e0e0e0;
+padding: 0px;
+margin-left: 30px;
+border-left: 1px solid #e0e0e0;
 }
 .li_linenum{
-	line-height: 20px;
-	margin-left: 10px;
-	list-style: none;
-	counter-increment: lines 1;
+line-height: 20px;
+margin-left: 10px;
+list-style: none;
+counter-increment: lines 1;
 }
 .li_linenum.li_list_style{
-	list-style: inherit;
-	margin-left: 5px;
+list-style: inherit;
+margin-left: 5px;
 }
 .li_linenum:before, .li_linenum_before_span{
-	content: counter(lines, decimal);
-  position: absolute;
-  left: 0px;
-  text-align: center;
-  width: 2.5em;
-	opacity: 0.5;
-  vertical-align: top;
+content: counter(lines, decimal);
+position: absolute;
+left: 0px;
+text-align: center;
+width: 2.5em;
+opacity: 0.5;
+vertical-align: top;
 }
 .li_linenum_before_span_hide{
-	display: none;
+display: none;
 }
 .xiaoshujiang_code .code_line_break_hack{
-	margin:0;
-	border:0;
-	border-top:0;
-	border-bottom:0;
+margin:0;
+border:0;
+border-top:0;
+border-bottom:0;
 }
 /** 
- * code line nums
- */
+* code line nums
+*/
 .mathjax-container{
-	text-align: center;
+text-align: center;
 }
 div.mathjax{
-	max-width: 700px;
-	margin: 0 auto;
-	font-size: 14px;
+max-width: 700px;
+margin: 0 auto;
+font-size: 14px;
 }
 text{
-	font-size: 14px;
+font-size: 14px;
 }
 
 /**
- * block image
- */
+* block image
+*/
 
 .story_image_container{
-	text-align: center;
+text-align: center;
 }
 .story_image_container&gt;.story_image{
-	display: inline-block;
-  position: relative;
-	max-width: 80%;
+display: inline-block;
+position: relative;
+max-width: 80%;
 }
 .story_image_caption{
-	border-bottom: 1px solid #d9d9d9;
-	display: inline-block;
-	color: #999;
-	padding: 10px;
+border-bottom: 1px solid #d9d9d9;
+display: inline-block;
+color: #999;
+padding: 10px;
 }
 .story_image_blank_caption{
-	border-bottom: 0px;
+border-bottom: 0px;
 }
 /**
 .story_image:before, .story_image:after{
-	content: &#39;&#39;;
-	position: absolute;
-	z-index: -2;
-	bottom: 13px;
-	left: 10px;
-	width: 50%;
-	height: 20%;
-	border-radius: 10px/90px;
-	box-shadow: 0 15px 10px rgba(0,0,0,0.7);
-	-webkit-transform: rotate(-3deg);
-	-moz-transform: rotate(-3deg);
-	-ms-transform: rotate(-3deg);
-	-o-transform: rotate(-3deg);
-	transform: rotate(-3deg);
+content: &#39;&#39;;
+position: absolute;
+z-index: -2;
+bottom: 13px;
+left: 10px;
+width: 50%;
+height: 20%;
+border-radius: 10px/90px;
+box-shadow: 0 15px 10px rgba(0,0,0,0.7);
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+transform: rotate(-3deg);
 }
 .story_image:after {
-	right: 10px;
-	left: auto;
-	-webkit-transform: rotate(3deg);
-	-moz-transform: rotate(3deg);
-	-ms-transform: rotate(3deg);
-	-o-transform: rotate(3deg);
-	transform: rotate(3deg);
+right: 10px;
+left: auto;
+-webkit-transform: rotate(3deg);
+-moz-transform: rotate(3deg);
+-ms-transform: rotate(3deg);
+-o-transform: rotate(3deg);
+transform: rotate(3deg);
 }
 
 **/
 .story_image&gt;img{
-	border-radius: 0.3125em;
-	box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);
+border-radius: 0.3125em;
+box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);
 }
 .story_inline_image&gt;img{
-	max-width: 50%;
-	vertical-align: bottom;
+max-width: 50%;
+vertical-align: bottom;
 }
 
 /*
-    Paraíso (light)
-    Created by Jan T. Sott (http://github.com/idleberg)
-    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+
+XCode style (c) Angel Garcia &lt;angelgarcia.mail@gmail.com&gt;
+
 */
 
-/* Paraíso Comment */
-.hljs-comment,
-.hljs-title {
-  color: #776e71;
-}
-
-/* Paraíso Red */
-.hljs-variable,
-.hljs-attribute,
-.hljs-tag,
-.hljs-regexp,
-.hljs-name,
-.ruby .hljs-constant,
-.xml .hljs-tag .hljs-title,
-.xml .hljs-pi,
-.xml .hljs-doctype,
-.html .hljs-doctype,
-.css .hljs-id,
-.css .hljs-class,
-.css .hljs-pseudo {
-  color: #ef6155;
-}
-
-/* Paraíso Orange */
-.hljs-number,
-.hljs-preprocessor,
-.hljs-built_in,
-.hljs-literal,
-.hljs-params,
-.hljs-constant {
-  color: #f99b15;
-}
-
-/* Paraíso Yellow */
-.ruby .hljs-class .hljs-title,
-.css .hljs-rule .hljs-attribute {
-  color: #fec418;
-}
-
-/* Paraíso Green */
-.hljs-string,
-.hljs-value,
-.hljs-inheritance,
-.hljs-header,
-.ruby .hljs-symbol,
-.xml .hljs-cdata {
-  color: #48b685;
-}
-
-/* Paraíso Aqua */
-.css .hljs-hexcolor {
-  color: #5bc4bf;
-}
-
-/* Paraíso Blue */
-.hljs-function,
-.python .hljs-decorator,
-.python .hljs-title,
-.ruby .hljs-function .hljs-title,
-.ruby .hljs-title .hljs-keyword,
-.perl .hljs-sub,
-.javascript .hljs-title,
-.coffeescript .hljs-title {
-  color: #06b6ef;
-}
-
-/* Paraíso Purple */
-.hljs-keyword,
-.javascript .hljs-function {
-  color: #815ba4;
-}
-
 .hljs {
-  display: block;
-  overflow-x: auto;
-  background: #e7e9db;
-  color: #4f424c;
-  padding: 0.5em;
-  -webkit-text-size-adjust: none;
+display: block;
+overflow-x: auto;
+padding: 0.5em;
+background: #fff;
+color: black;
+-webkit-text-size-adjust: none;
 }
 
-.coffeescript .javascript,
-.javascript .xml,
-.tex .hljs-formula,
-.xml .javascript,
-.xml .vbscript,
-.xml .css,
-.xml .hljs-cdata {
-  opacity: 0.5;
+.hljs-comment,
+.hljs-javadoc {
+color: #006a00;
+}
+
+.hljs-keyword,
+.hljs-literal,
+.nginx .hljs-title {
+color: #aa0d91;
+}
+.method,
+.hljs-list .hljs-title,
+.hljs-tag .hljs-title,
+.setting .hljs-value,
+.hljs-winutils,
+.tex .hljs-command,
+.http .hljs-title,
+.hljs-request,
+.hljs-status,
+.hljs-name {
+color: #008;
+}
+
+.hljs-envvar,
+.tex .hljs-special {
+color: #660;
+}
+
+.hljs-string {
+color: #c41a16;
+}
+.hljs-tag .hljs-value,
+.hljs-cdata,
+.hljs-filter .hljs-argument,
+.hljs-attr_selector,
+.apache .hljs-cbracket,
+.hljs-date,
+.hljs-regexp {
+color: #080;
+}
+
+.hljs-sub .hljs-identifier,
+.hljs-pi,
+.hljs-tag,
+.hljs-tag .hljs-keyword,
+.hljs-decorator,
+.ini .hljs-title,
+.hljs-shebang,
+.hljs-prompt,
+.hljs-hexcolor,
+.hljs-rule .hljs-value,
+.hljs-symbol,
+.hljs-symbol .hljs-string,
+.hljs-number,
+.css .hljs-function,
+.hljs-function .hljs-title,
+.coffeescript .hljs-attribute {
+color: #1c00cf;
+}
+
+.hljs-class .hljs-title,
+.smalltalk .hljs-class,
+.hljs-javadoctag,
+.hljs-yardoctag,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.hljs-type,
+.hljs-typename,
+.hljs-tag .hljs-attribute,
+.hljs-doctype,
+.hljs-class .hljs-id,
+.hljs-built_in,
+.setting,
+.hljs-params,
+.clojure .hljs-attribute {
+color: #5c2699;
+}
+
+.hljs-variable {
+color: #3f6e74;
+}
+.css .hljs-tag,
+.hljs-rule .hljs-property,
+.hljs-pseudo,
+.hljs-subst {
+color: #000;
+}
+
+.css .hljs-class,
+.css .hljs-id {
+color: #9b703f;
+}
+
+.hljs-value .hljs-important {
+color: #ff7700;
+font-weight: bold;
+}
+
+.hljs-rule .hljs-keyword {
+color: #c5af75;
+}
+
+.hljs-annotation,
+.apache .hljs-sqbracket,
+.nginx .hljs-built_in {
+color: #9b859d;
+}
+
+.hljs-preprocessor,
+.hljs-preprocessor *,
+.hljs-pragma {
+color: #643820;
+}
+
+.tex .hljs-formula {
+background-color: #eee;
+font-style: italic;
+}
+
+.diff .hljs-header,
+.hljs-chunk {
+color: #808080;
+font-weight: bold;
+}
+
+.diff .hljs-change {
+background-color: #bccff9;
+}
+
+.hljs-addition {
+background-color: #baeeba;
+}
+
+.hljs-deletion {
+background-color: #ffc8bd;
+}
+
+.hljs-comment .hljs-yardoctag {
+font-weight: bold;
+}
+
+.method .hljs-id {
+color: #000;
 }
 
 
@@ -785,7 +848,6 @@ text{
 &lt;p&gt;  随着 Internet 和 WWW 的流行，以往的主机/终端和 C/S 都无法满足当前的全球网络开放、互连、信息随处可见和信息共享的新要求，于是就出现了 B/S 型模式，即浏览器/服务器结构。它是 C/S 架构的一种改进，可以说属于三层 C/S 架构。&lt;br&gt;
 &lt;span class=&quot;story_inline_image&quot;&gt;&lt;img src=&quot;/images/B-S.png&quot; alt=&quot;&quot;&gt;&lt;/span&gt;&lt;br&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
   B/S 架构与 C/S 结构不同，其客户端不需要安装专门的软件，只需要浏览器即可，浏览器通过 Web 服务器与数据库进行交互，可以方便的在不同平台下工作；服务器端可采用高性能计算机，并安装 Oracle 、 Sybase 、 Informix 等大型数据库。 B/S 结构简化了客户端的工作。&lt;br&gt;
   而这种 B/S 架构的表示层主是使用 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 开发的网页作为系统的显示界面，与用户进行交互。这种 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 所开发的网页有其先天上的优势。&lt;/p&gt;
 &lt;ul&gt;
@@ -798,12 +860,12 @@ text{
 &lt;h3 id=&quot;html5&quot;&gt;&lt;a name=&quot;html5&quot;&gt;&lt;/a&gt;&lt;strong&gt;HTML5&lt;/strong&gt;&lt;/h3&gt;
 &lt;h4 id=&quot;120html420e59bb0e5a283&quot;&gt;&lt;a name=&quot;120html420e59bb0e5a283&quot;&gt;&lt;/a&gt;1. HTML4 困境&lt;/h4&gt;
 &lt;p&gt;  虽然使用 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 开发的网页作为系统显示界面有种种优，但是，在强大的程语也无法永远能保证满足用户的需求。 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 目前的版本是 1999 年推的 HTML4 ，但是经过这么多年，已经慢慢跟不上用户需求的变化了，开始出现了许多不足。为了弥补HTM4 无满足用户的需求的种种不足， W3C 这个制定 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 标的国际组织，目前正将 HTML4 升级到新版本 HTML5 。&lt;/p&gt;
-&lt;h5 id=&quot;220html520e58d87e7baa7&quot;&gt;&lt;a name=&quot;220html520e58d87e7baa7&quot;&gt;&lt;/a&gt;2. HTML5 升级&lt;/h5&gt;
+&lt;h4 id=&quot;220html520e58d87e7baa7&quot;&gt;&lt;a name=&quot;220html520e58d87e7baa7&quot;&gt;&lt;/a&gt;2. HTML5 升级&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;&lt;strong&gt;狭义的 HTML5&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;
 狭义的 HTML5 指 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 下一个主要的修订版本，是 W3C 制定的标准，目前还在发展中,在 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt;  4.01 和 XHTML 1.0 标准基础上， HTML5 标准增加和修改了一些标签元素，其中多媒体相关的有&lt;code&gt;&amp;lt;video&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;audio&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;，同时集成了SVG内容，数据内容的元素有&lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;nav&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;menu&amp;gt;&lt;/code&gt;等，还提供了新的 API ，如 2D 绘图(Canvas)，离线存储(LocalStorage)，加强版的cookie(WebStorage)，拖拽，通讯(WebSockets)，浏览历史管理，文件 API (上传下载本地存储)，位置 API (Geolocation)等。&lt;br&gt;
-&lt;span class=&quot;story_inline_image&quot;&gt;&lt;img src=&quot;/images/2440571026-57025de10a525_articlex.png&quot; alt=&quot;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;span class=&quot;story_inline_image&quot;&gt;&lt;img src=&quot;/images/HTML5-Improved.png&quot; alt=&quot;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;&lt;strong&gt;广义的 HTML5&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;
@@ -814,58 +876,57 @@ text{
 &lt;hr&gt;
 &lt;h3 id=&quot;e4bb8ehtml5e696b0e789b9e680a7e79c8bbse7bcbae999b7&quot;&gt;&lt;a name=&quot;e4bb8ehtml5e696b0e789b9e680a7e79c8bbse7bcbae999b7&quot;&gt;&lt;/a&gt;&lt;strong&gt;从HTML5新特性看B/S缺陷&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;HTML5 标准的推出正是为解决当前 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 版本 HTML4 的许多不足。而这些不足也正体现了当前基于 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 的B/S架构的缺陷。&lt;/p&gt;
-&lt;h4 id=&quot;120e59bbee5838fe68f8fe7bb98&quot;&gt;&lt;a name=&quot;120e59bbee5838fe68f8fe7bb98&quot;&gt;&lt;/a&gt;1. 图像描绘&lt;/h4&gt;
+&lt;h4 id=&quot;120e59bbee5838fe68f8fe7bb98&quot;&gt;&lt;a name=&quot;120e59bbee5838fe68f8fe7bb98&quot;&gt;&lt;/a&gt;&lt;strong&gt;1. 图像描绘&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;HTML4&lt;/span&gt;&lt;br&gt;
-在 HTML4 的环境下，若无定义用来处理图描绘的 API ，要将各种系统内容以图片、图表等方显示在网页上时，较常见的是：&lt;/p&gt;&lt;h5 id=&quot;i20e69c8de58aa1e599a8e694afe68c81&quot;&gt;&lt;a name=&quot;i20e69c8de58aa1e599a8e694afe68c81&quot;&gt;&lt;/a&gt;i. 服务器支持&lt;/h5&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;mark  &quot;&gt;HTML4&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;
+在 HTML4 的环境下，若无定义用来处理图描绘的 API ，要将各种系统内容以图片、图表等方显示在网页上时，较常见的是：&lt;/p&gt;&lt;h5 id=&quot;i20e69c8de58aa1e599a8e694afe68c81&quot;&gt;&lt;a name=&quot;i20e69c8de58aa1e599a8e694afe68c81&quot;&gt;&lt;/a&gt;&lt;strong&gt;i. 服务器支持&lt;/strong&gt;&lt;/h5&gt;
 &lt;p&gt;所谓的服务器支持，就是将图像描绘功能交给后台服务器来提供。&lt;br&gt;
-采用这种方式就需频繁的与服务器进行通信，这样除了要耗费大量的传输时间之外，在一些需要快速显示信变化的需求，例如游戏画面时，就无法提供良好的用户体验。&lt;/p&gt;&lt;h5 id=&quot;ii20e59bbee5838fe7bb84e59088&quot;&gt;&lt;a name=&quot;ii20e59bbee5838fe7bb84e59088&quot;&gt;&lt;/a&gt;ii. 图像组合&lt;/h5&gt;
+采用这种方式就需频繁的与服务器进行通信，这样除了要耗费大量的传输时间之外，在一些需要快速显示信变化的需求，例如游戏画面时，就无法提供良好的用户体验。&lt;/p&gt;&lt;h5 id=&quot;ii20e59bbee5838fe7bb84e59088&quot;&gt;&lt;a name=&quot;ii20e59bbee5838fe7bb84e59088&quot;&gt;&lt;/a&gt;&lt;strong&gt;ii. 图像组合&lt;/strong&gt;&lt;/h5&gt;
 &lt;p&gt;所谓的图像组合，是将一个图像的各种不同信息都拆解成一个一个的图像碎片，然后再依照系统信息内容，去组合这些碎片，最终在网页上显示动态产生的图像信息。比如圆形指针时钟的实现，可以用 12 个时针图片、 60 个分针图片，依照时间组合去选择对应的图片组合，就能够生成对应的时钟图像。但这种方式的缺陷是显而易见的，在一些需要更精细处理图像的场景，会让图片的需求量暴增。&lt;br&gt;
 这些方式虽然可以创建出传达系统内容的图片、图表，但在后台却为整个系统的开发与后期维护，埋下了许多技术隐患。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;HTML5&lt;/span&gt;&lt;br&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;mark  &quot;&gt;HTML5&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;
 而HTML5 &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;标签的出现解决了当前 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 版本在图像描绘上的乏力。开发人员可以使用这个标签所提供的功能完成位图的剪裁、编辑工作，也可以使用这个标签在网页上描绘各种几何图形。而&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;标签这个 API 是以一个标签的方式，让开发人员来将图像描绘功能加入到HTML文件中，并在 DOM 对象模型中提供对应的 DOM  节点，提供开发人员取得节点来操作节点的方法、监听节点的时间，非常方便。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;&lt;p&gt;影音播放&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h4 id=&quot;220e5bdb1e99fb3e692ade694be&quot;&gt;&lt;a name=&quot;220e5bdb1e99fb3e692ade694be&quot;&gt;&lt;/a&gt;&lt;strong&gt;2. 影音播放&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;HTML4&lt;/span&gt;&lt;br&gt;
-在 HTML4 的环境下，没有定义专门的用来播放多媒体信息的功能，但是另外提供了 API 的功能，让开发人员能够外挂各种影音播放器来播放影音。比较常见的外挂有下列几种：&lt;/p&gt;&lt;h5 id=&quot;i20e5a496e68c8220real20player20e3808120media20player&quot;&gt;&lt;a name=&quot;i20e5a496e68c8220real20player20e3808120media20player&quot;&gt;&lt;/a&gt;i. 外挂 Real Player 、 Media Player&lt;/h5&gt;
-&lt;p&gt;这种方式在跨浏览器支持度上有各种兼容问题，但在跨浏览器之外还有一个更严重的问题是：影音格式的种类非常繁多，播放软并不是每种影音格式都能支持。这极大的限制了开发人员必须要使用特定的文件格式、特定的播放软件来提供影音信息，而且在部署时必须要定义出每种浏览器要安装哪些外挂软件，光设想就是一个很大的负担。&lt;/p&gt;&lt;h5 id=&quot;ii20e5a496e68c8220flash20e38081java20applet20e38081silverlight&quot;&gt;&lt;a name=&quot;ii20e5a496e68c8220flash20e38081java20applet20e38081silverlight&quot;&gt;&lt;/a&gt;ii. 外挂 Flash 、Java Applet 、Silverlight&lt;/h5&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;mark  &quot;&gt;HTML4&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;
+在 HTML4 的环境下，没有定义专门的用来播放多媒体信息的功能，但是另外提供了 API 的功能，让开发人员能够外挂各种影音播放器来播放影音。比较常见的外挂有下列几种：&lt;/p&gt;&lt;h5 id=&quot;i20e5a496e68c8220real20player20e3808120media20player&quot;&gt;&lt;a name=&quot;i20e5a496e68c8220real20player20e3808120media20player&quot;&gt;&lt;/a&gt;&lt;strong&gt;i. 外挂 Real Player 、 Media Player&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;这种方式在跨浏览器支持度上有各种兼容问题，但在跨浏览器之外还有一个更严重的问题是：影音格式的种类非常繁多，播放软并不是每种影音格式都能支持。这极大的限制了开发人员必须要使用特定的文件格式、特定的播放软件来提供影音信息，而且在部署时必须要定义出每种浏览器要安装哪些外挂软件，光设想就是一个很大的负担。&lt;/p&gt;&lt;h5 id=&quot;ii20e5a496e68c8220flash20e38081java20applet20e38081silverlight&quot;&gt;&lt;a name=&quot;ii20e5a496e68c8220flash20e38081java20applet20e38081silverlight&quot;&gt;&lt;/a&gt;&lt;strong&gt;ii. 外挂 Flash 、Java Applet 、Silverlight&lt;/strong&gt;&lt;/h5&gt;
 &lt;p&gt;这种方式在跨浏览器的支持上也有各种兼容问题，但主要的问题是：要学习一套跟网页完全不同的开发语言，才能开发这些程序代码。只有先学会一堆跟网页开发完全不同领域的知识，才能开发出用来播放影音的程序代码。这除了需要较多的开发技术知识之外，对于后续交接给其他开发人员维护造成很大的困扰，毕竟不是每个人都学过系统选用的开发平台。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;HTML5&lt;/span&gt;&lt;br&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;mark  &quot;&gt;HTML5&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;
 video 、 audio  标签是 HTML5 中提供给开发人员完成视频播放、音频播放功能的 API ，开发人员可以使用这个标签所提供的功能完成视频、音频的播放、暂停等工作。 HTML5 提供这两个与视频、音频播放相关的API之后，开发人员不需要考虑浏览器平台支持哪种播放器，只要使用统一的 video 、 audio 标签来播放这个视频，剩下的工作就交给运行 video 、 audio 标签的浏览器去完成。而 video 、 audio 标签这个 API 是以标签的方式，让开发人员将视频功能加入到 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 文件中，并在 DOM 对象模型中提供对应的 DOM 节点，提供开发人员获取节点来操作节点的方法、响应节点事件。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;&lt;p&gt;数据存储&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h4 id=&quot;320e695b0e68daee5ad98e582a8&quot;&gt;&lt;a name=&quot;320e695b0e68daee5ad98e582a8&quot;&gt;&lt;/a&gt;&lt;strong&gt;3. 数据存储&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;HTML4&lt;/span&gt;&lt;br&gt;
-在 HTML4 的环境下，可以选择浏览器提供的 cookie 功能将数据保存在客户端，或者是通过数据传功能将存储在远程服务器等方式，用来完成数据存储的工作。这两种方式，虽然可以完成数据存储的功能，但是在后台中则是为整系统的开发与后续维护埋下许多隐患。因为：&lt;/p&gt;&lt;h5 id=&quot;i20e695b0e68daee5ad98e582a8e59ca820cookie&quot;&gt;&lt;a name=&quot;i20e695b0e68daee5ad98e582a8e59ca820cookie&quot;&gt;&lt;/a&gt;i. 数据存储在 cookie&lt;/h5&gt;
-&lt;p&gt;虽然 cookie 数据存储在本地的浏览器中，也能用 Javascript 去访问，但是实际上每次运行服务器上的网页时，都会将这份 cookie 数据传给服务器，然后再接收新的 cookie 数据来存。这种运行方式，必然导致当cookie的数据内容膨胀到一定程度的时候，就会大量占用网络带宽，让整个网站的运行效率变得非常低，严重还可能导致整个网站的运行瘫痪。&lt;/p&gt;&lt;h5 id=&quot;ii20e695b0e68daee5ad98e582a8e59ca8e8bf9ce7a88be69c8de58aa1e599a8&quot;&gt;&lt;a name=&quot;ii20e695b0e68daee5ad98e582a8e59ca8e8bf9ce7a88be69c8de58aa1e599a8&quot;&gt;&lt;/a&gt;ii. 数据存储在远程服务器&lt;/h5&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;mark  &quot;&gt;HTML4&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;
+在 HTML4 的环境下，可以选择浏览器提供的 cookie 功能将数据保存在客户端，或者是通过数据传功能将存储在远程服务器等方式，用来完成数据存储的工作。这两种方式，虽然可以完成数据存储的功能，但是在后台中则是为整系统的开发与后续维护埋下许多隐患。因为：&lt;/p&gt;&lt;h5 id=&quot;i20e695b0e68daee5ad98e582a8e59ca820cookie&quot;&gt;&lt;a name=&quot;i20e695b0e68daee5ad98e582a8e59ca820cookie&quot;&gt;&lt;/a&gt;&lt;strong&gt;i. 数据存储在 cookie&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;虽然 cookie 数据存储在本地的浏览器中，也能用 Javascript 去访问，但是实际上每次运行服务器上的网页时，都会将这份 cookie 数据传给服务器，然后再接收新的 cookie 数据来存。这种运行方式，必然导致当cookie的数据内容膨胀到一定程度的时候，就会大量占用网络带宽，让整个网站的运行效率变得非常低，严重还可能导致整个网站的运行瘫痪。&lt;/p&gt;&lt;h5 id=&quot;ii20e695b0e68daee5ad98e582a8e59ca8e8bf9ce7a88be69c8de58aa1e599a8&quot;&gt;&lt;a name=&quot;ii20e695b0e68daee5ad98e582a8e59ca8e8bf9ce7a88be69c8de58aa1e599a8&quot;&gt;&lt;/a&gt;&lt;strong&gt;ii. 数据存储在远程服务器&lt;/strong&gt;&lt;/h5&gt;
 &lt;p&gt;所谓的将数据存储在远程服务器，就是通过网络传输，将要存储的数据存入后端服务器，并在需要时再通过网络传输来取得这些数据。这样的方式能够使用后端服务器所提供的各种数据存储功能，例如用数据库存各种数据，而且因为是有需要的时候再去取，所以不用担心占用大量带宽的问题。但是以系统架的角度来看，浏览器上运的网页是定位在用户界面层，而后端服务器则是定位在数据逻辑层，基本上应该由用户界面层来显示数据逻辑层提供的数据。而将数据存储在服务器的设计方式，则是反过来要求数据逻辑层要为用户界面层服务提供所需的功能。这样的设计在存储的数据类型多到一定程度的时候，就会变成数据逻辑层里有很大一块都是在提供各种用户界面层所需要的数据存储 API ，整个系统就会渐渐变得杂乱无章并且难以维护。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;HTML5&lt;/span&gt;&lt;br&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;mark  &quot;&gt;HTML5&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;
 localStorage 对象、 sessionStorage 对象是 HTML5  中提供给开法人员完成数据存储的API。而这两个对象是以 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; API 的方式来提供使用，开发人员可以使用静态引用的方式来取得 window 对象的 localStorage  属性、 sessionStorage 属性，这两个属性中就分别提供封装数据存储功能的 localStorager 对象、 sessionStorage 对象。使用这两个对象所封装的功能，能在网页中完成各种数据存入、数据取出、数据更改通知等功能。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol start=&quot;4&quot;&gt;
-&lt;li&gt;&lt;p&gt;数据传输&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h4 id=&quot;420e695b0e68daee4bca0e8be93&quot;&gt;&lt;a name=&quot;420e695b0e68daee4bca0e8be93&quot;&gt;&lt;/a&gt;&lt;strong&gt;4. 数据传输&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;HTML4&lt;/span&gt;&lt;br&gt;
-在 HTML4 的环境下，可以选择 XMLHttpRequest 对象、定时 Reload 网页等方式，来完成这个数据传输的工作。&lt;/p&gt;&lt;h6 id=&quot;i20e5ae9ae697b620reload20e7bd91e9a1b5&quot;&gt;&lt;a name=&quot;i20e5ae9ae697b620reload20e7bd91e9a1b5&quot;&gt;&lt;/a&gt;i. 定时 Reload 网页&lt;/h6&gt;
-&lt;p&gt;所谓的定时 Reload 网页，是使用 frame 、 iframe 等标签在网页内打一个不可见的HTML文件，并且定时 Reload 这份文件向远程服务器端取得系统数据。在 Reload 文件获取完毕之后，使用文件中自带的 JavaScript 程序代码，将取得的系统数据显示在网页中来与用户互动，这样就能简单地完成从远程服务器传输数据到浏览器的工作。但是这种方式的缺点也很明显，因为是一直重复地重新读取网页，每次读取数据都要经过传输 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 文件、分析 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 、运行 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 文件等流程，这些流程使得系统的效率低下。&lt;/p&gt;&lt;h5 id=&quot;ii20xmlhttprequest20e5afb9e8b1a1&quot;&gt;&lt;a name=&quot;ii20xmlhttprequest20e5afb9e8b1a1&quot;&gt;&lt;/a&gt;ii. XMLHttpRequest 对象&lt;/h5&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;mark  &quot;&gt;HTML4&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;
+在 HTML4 的环境下，可以选择 XMLHttpRequest 对象、定时 Reload 网页等方式，来完成这个数据传输的工作。&lt;/p&gt;&lt;h5 id=&quot;i20e5ae9ae697b620reload20e7bd91e9a1b5&quot;&gt;&lt;a name=&quot;i20e5ae9ae697b620reload20e7bd91e9a1b5&quot;&gt;&lt;/a&gt;&lt;strong&gt;i. 定时 Reload 网页&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;所谓的定时 Reload 网页，是使用 frame 、 iframe 等标签在网页内打一个不可见的HTML文件，并且定时 Reload 这份文件向远程服务器端取得系统数据。在 Reload 文件获取完毕之后，使用文件中自带的 JavaScript 程序代码，将取得的系统数据显示在网页中来与用户互动，这样就能简单地完成从远程服务器传输数据到浏览器的工作。但是这种方式的缺点也很明显，因为是一直重复地重新读取网页，每次读取数据都要经过传输 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 文件、分析 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 、运行 &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; 文件等流程，这些流程使得系统的效率低下。&lt;/p&gt;&lt;h5 id=&quot;ii20xmlhttprequest20e5afb9e8b1a1&quot;&gt;&lt;a name=&quot;ii20xmlhttprequest20e5afb9e8b1a1&quot;&gt;&lt;/a&gt;&lt;strong&gt;ii. XMLHttpRequest 对象&lt;/strong&gt;&lt;/h5&gt;
 &lt;p&gt;XMLHttpRequest 对象是一组封装HTTP通信功能的对象，开发人员可以使用J avaScript 程序代码来操作 XMLHttpRequest 对象，通过HTTP通信协议来和远程服务器取得数据。定时的使用 XMLHttpRequest 对象来和远程服务器取得数据，就能轻松的完成从远程服务器传输数据到浏览器的工作。&lt;br&gt;
 这种方式因为是一直重复的请求数据，就算远程服务器没有数据要传输到浏览器，在这个架构下还是不能停止请求数据的操作。这就造成了网络效率的低下。虽然有“长轮询(long-polling)”的解决方案，但是在很多量小而变化多的数据要传输到浏览器的情景下，每次长轮询请求都会马上取得一个新的数据返回，这时长轮询的运行效率就与定轮询一样了。甚至在这种数据量小而变化多的情况下，这种方式底层的 HTTP 表头的内容比实际要传输的数据内容还要多的现象，这样就造成了资源的极大浪费。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&quot;mark  &quot;&gt;HTMl5&lt;/span&gt;&lt;/p&gt;&lt;h5 id=&quot;i20e69c8de58aa1e599a8e68ea8e98081&quot;&gt;&lt;a name=&quot;i20e69c8de58aa1e599a8e68ea8e98081&quot;&gt;&lt;/a&gt;i. 服务器推送&lt;/h5&gt;
-&lt;p&gt;EventSource 对象是 HTML5  中提供给开发人员使用服务器推送功能的API，开发人员可以通过这个对象所提供的功能，完成服务器推送功能的建立连接、数据接受等工作。 EventSource 对象主要是在系统底层将复杂的服务器推送机制封装为开发人员熟悉的事件、方法，让开发人员可以在浏览器端通过服务器推送机制，来接收服务器主动传输的数据。&lt;/p&gt;&lt;h5 id=&quot;ii20e58f8ce59091e4bca0e8be93&quot;&gt;&lt;a name=&quot;ii20e58f8ce59091e4bca0e8be93&quot;&gt;&lt;/a&gt;ii. 双向传输&lt;/h5&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;mark  &quot;&gt;HTMl5&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;h5 id=&quot;i20e69c8de58aa1e599a8e68ea8e98081&quot;&gt;&lt;a name=&quot;i20e69c8de58aa1e599a8e68ea8e98081&quot;&gt;&lt;/a&gt;&lt;strong&gt;i. 服务器推送&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;EventSource 对象是 HTML5  中提供给开发人员使用服务器推送功能的API，开发人员可以通过这个对象所提供的功能，完成服务器推送功能的建立连接、数据接受等工作。 EventSource 对象主要是在系统底层将复杂的服务器推送机制封装为开发人员熟悉的事件、方法，让开发人员可以在浏览器端通过服务器推送机制，来接收服务器主动传输的数据。&lt;/p&gt;&lt;h5 id=&quot;ii20e58f8ce59091e4bca0e8be93&quot;&gt;&lt;a name=&quot;ii20e58f8ce59091e4bca0e8be93&quot;&gt;&lt;/a&gt;&lt;strong&gt;ii. 双向传输&lt;/strong&gt;&lt;/h5&gt;
 &lt;p&gt;EventSource 对象使用来提供服务器主动传输数据到浏览器的功能。 HTML5 中为满足双向传输的系统需求，引入了 WebSocket 的通信机制。在 WebSockt 通信协议中，因为服务器与浏览器都可以主动传输数据给对方，这就避免了原来必须要在系统架构内加入两套不同的通信机制才能完成双向传输的问题。&lt;br&gt;
 &lt;span class=&quot;mark  &quot;&gt;WebSocket 业务模型：&lt;/span&gt;&lt;br&gt;
-&lt;span class=&quot;story_inline_image&quot;&gt;&lt;img src=&quot;/images/15671127979_acba8f202d_o.png&quot; alt=&quot;enter description here&quot; title=&quot;15671127979_acba8f202d_o.png&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;span class=&quot;story_inline_image&quot;&gt;&lt;img src=&quot;/images/Websocket-model.png&quot; alt=&quot;enter description here&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&quot;e680bbe7bb93&quot;&gt;&lt;a name=&quot;e680bbe7bb93&quot;&gt;&lt;/a&gt;&lt;strong&gt;总结&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;目前 HTML5 已经可以解决很多问题，多少可以用到一部分，而面向未来互联网，基于“B/S”的构架，终端的HTML5的兼容解决方案必然会出现，到时目前B/S存在的诸多缺陷都可以很好的解决。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;story_image_container story_block_image&quot;&gt;&lt;div class=&quot;story_image&quot;&gt;&lt;img src=&quot;/images/HTML5-CSS3-JavaScript.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;br&gt;&lt;div class=&quot;story_image_caption story_image_blank_caption&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;
+目前 HTML5 已经可以解决很多问题，多少可以用到一部分，而面向未来互联网，基于“B/S”的构架，终端的HTML5的兼容解决方案必然会出现，到时目前B/S存在的诸多缺陷都可以很好的解决。&lt;p&gt;&lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt;&lt;br&gt;
+[1] 周忠庆，陈葵懋. HTML5&amp;amp;CSS3&amp;amp;JavaScript APP 程序开发实战. 北京：中国铁道出版社，2014.5.&lt;br&gt;
+[2] &lt;a href=&quot;https://segmentfault.com/a/1190000000490139&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://segmentfault.com/a/1190000000490139&lt;/a&gt;&lt;br&gt;
+[3] &lt;a href=&quot;http://blog.csdn.net/tennysonsky/article/details/45062079&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/tennysonsky/article/details/45062079&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;&lt;/div&gt;
@@ -876,7 +937,7 @@ localStorage 对象、 sessionStorage 对象是 HTML5  中提供给开法人员�
     <summary type="html">
     
       &lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
-&lt;title&gt; HTML5看B/S缺陷 &lt;/title&gt;
+&lt;title&gt; 从HTML5新特性看B/S缺陷---小书匠,在线编辑器,MARKDOWN,Evernote,文件版本&lt;/title&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
@@ -884,51 +945,51 @@ localStorage 对象、 sessionStorage 对象是 HTML5  中提供给开法人员�
 &lt;link rel=&quot;stylesheet&quot; href=&quot;http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css&quot;&gt;
 &lt;style type=&quot;text/css&quot;&gt;
 a:focus {
-  outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+outline: thin dotted #333;
+outline: 5px auto -webkit-focus-ring-color;
+outline-offset: -2px;
 }
 
 a:hover,
 a:active {
-  outline: 0;
+outline: 0;
 }
 a {
-  color: #0088cc;
-  text-decoration: none;
+color: #0088cc;
+text-decoration: none;
 }
 
 a:hover {
-  color: #005580;
-  text-decoration: underline;
+color: #005580;
+text-decoration: underline;
 }
 
 p {
-  margin: 0 0 1.1em;
+margin: 0 0 1.1em;
 }
 
 small {
-  font-size: 85%;
+font-size: 85%;
 }
 
 strong {
-  font-weight: bold;
+font-weight: bold;
 }
 
 em {
-  font-style: italic;
+font-style: italic;
 }
 
 cite {
-  font-style: normal;
+font-style: normal;
 }
 
 
 h1.story_title {
-	margin: 0.7em 0;
+margin: 0.7em 0;
 }
 .story_tags {
-	margin: 0 0 1.2em;
+margin: 0 0 1.2em;
 }
 h1,
 h2,
@@ -936,138 +997,138 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0.5em 0;
-	margin: 1.0em 0 .6em 0;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 20px;
-  color: inherit;
-  text-rendering: optimizelegibility;
+margin: 0.5em 0;
+margin: 1.0em 0 .6em 0;
+font-family: inherit;
+font-weight: 500;
+line-height: 20px;
+color: inherit;
+text-rendering: optimizelegibility;
 }
 
 h1,
 h2,
 h3 {
-  line-height: 40px;
+line-height: 40px;
 }
 
 h1 {
-  font-size: 38.5px;
+font-size: 38.5px;
 }
 
 h2 {
-  font-size: 31.5px;
+font-size: 31.5px;
 }
 
 h3 {
-  font-size: 24.5px;
+font-size: 24.5px;
 }
 
 h4 {
-  font-size: 17.5px;
+font-size: 17.5px;
 }
 
 h5 {
-  font-size: 14px;
+font-size: 14px;
 }
 
 h6 {
-  font-size: 11.9px;
+font-size: 11.9px;
 }
 
 ul,
 ol {
-  padding: 0;
-  margin: 0 0 10px 35px;
+padding: 0;
+margin: 0 0 10px 35px;
 }
 
 ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
 
 dl {
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 dt,
 dd {
-  line-height: 20px;
+line-height: 20px;
 }
 
 dt {
-  font-weight: bold;
+font-weight: bold;
 }
 
 dd {
-  margin-left: 10px;
+margin-left: 10px;
 }
 
 hr {
-  margin: 20px 0;
-  border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
+margin: 20px 0;
+border: 0;
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #ffffff;
 }
 
 abbr[title],
 abbr[data-original-title] {
-  cursor: help;
-  border-bottom: 1px dotted #999999;
+cursor: help;
+border-bottom: 1px dotted #999999;
 }
 
 
 blockquote {
-  padding: 0 0 0 15px;
-  margin: 0 0 20px;
-  border-left: 5px solid #dddddd;
+padding: 0 0 0 15px;
+margin: 0 0 20px;
+border-left: 5px solid #dddddd;
 }
 
 blockquote p {
-  margin-bottom: 0;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 25px;
+margin-bottom: 0;
+font-size: 16px;
+font-weight: 300;
+line-height: 25px;
 }
 
 blockquote small {
-  display: block;
-  line-height: 20px;
-  color: #999999;
+display: block;
+line-height: 20px;
+color: #999999;
 }
 
 blockquote small:before {
-  content: &#39;\2014 \00A0&#39;;
+content: &#39;\2014 \00A0&#39;;
 }
 q:before,
 q:after,
 blockquote:before,
 blockquote:after {
-  content: &quot;&quot;;
+content: &quot;&quot;;
 }
 
 address {
-  display: block;
-  margin-bottom: 20px;
-  font-style: normal;
-  line-height: 20px;
+display: block;
+margin-bottom: 20px;
+font-style: normal;
+line-height: 20px;
 }
 img {
-	height: auto;
-	max-width: 100%;
-	vertical-align: middle;
-	border: 0;
+height: auto;
+max-width: 100%;
+vertical-align: middle;
+border: 0;
 }
 
 table {
-  max-width: 100%;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
-	border: 1px solid rgba(34,36,38,.15);
+max-width: 100%;
+background-color: transparent;
+border-collapse: collapse;
+border-spacing: 0;
+border: 1px solid rgba(34,36,38,.15);
 }
 .tag.label{
 display: inline-block;
@@ -1087,25 +1148,25 @@ font-size: 0.7428rem;
 }
 
 .table {
-  width: 100%;
-  margin-bottom: 20px;
+width: 100%;
+margin-bottom: 20px;
 }
 
 .table th,
 .table td {
-  padding: 8px;
-  line-height: 20px;
-  text-align: left;
-  vertical-align: top;
-  border-top: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: left;
+vertical-align: top;
+border-top: 1px solid #dddddd;
 }
 
 .table th {
-  font-weight: bold;
+font-weight: bold;
 }
 
 .table thead th {
-  vertical-align: bottom;
+vertical-align: bottom;
 }
 
 .table caption + thead tr:first-child th,
@@ -1114,517 +1175,580 @@ font-size: 0.7428rem;
 .table colgroup + thead tr:first-child td,
 .table thead:first-child tr:first-child th,
 .table thead:first-child tr:first-child td {
-  border-top: 0;
+border-top: 0;
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #dddddd;
+border-top: 2px solid #dddddd;
 }
 
 .table .table {
-  background-color: #ffffff;
+background-color: #ffffff;
 }
 
 
 .table-striped tbody &gt; tr:nth-child(odd) &gt; td,
 .table-striped tbody &gt; tr:nth-child(odd) &gt; th {
-  background-color: #f9f9f9;
+background-color: #f9f9f9;
 }
 
 .table-celled.table tr td,.table-celled.table tr th {
-    border-left: 1px solid rgba(34,36,38,.1)
+border-left: 1px solid rgba(34,36,38,.1)
 }
 
 .table-celled.table tr td:first-child,.table-celled.table tr th:first-child {
-    border-left: none
+border-left: none
 }
 
 .toc ul {
-	list-style: none;
+list-style: none;
 }
 p {
-	line-height: 1.6;
+line-height: 1.6;
 }
 body&gt;p {
-  margin-bottom: 1.8em;
+margin-bottom: 1.8em;
 }
 body&gt;p&gt;img.center,
 body&gt;p&gt;a&gt;img.center {
-  display: block;
-  margin: 0 auto;
-  background-color: rgba(128,128,128,0.3);
+display: block;
+margin: 0 auto;
+background-color: rgba(128,128,128,0.3);
 }
 body {
-	font-family: &#39;Helvetica Neue&#39;, Helvetica, Tahoma, Arial, &#39;Hiragino Sans GB&#39;, STHeiti, &quot;Microsoft YaHei&quot;, &quot;微软雅黑&quot;, &#39;WenQuanYi Micro Hei&#39;, STXihei, &quot;华文细黑&quot;, Heiti, &quot;黑体&quot;, SimSun, &quot;宋体&quot;, Song, sans-serif;
-  font-size: 1.15em;
-  font-weight: 100;
+font-family: &#39;Helvetica Neue&#39;, Helvetica, Tahoma, Arial, &#39;Hiragino Sans GB&#39;, STHeiti, &quot;Microsoft YaHei&quot;, &quot;微软雅黑&quot;, &#39;WenQuanYi Micro Hei&#39;, STXihei, &quot;华文细黑&quot;, Heiti, &quot;黑体&quot;, SimSun, &quot;宋体&quot;, Song, sans-serif;
+font-size: 1.15em;
+font-weight: 100;
 //  line-height: 1.8em;
-  color: #2f2f2f;
+color: #2f2f2f;
 }
 em.cjk_emphasis{
-	font-style: normal;
-	font-family: Georgia,&quot;Times New Roman&quot;,Times,&quot;楷体&quot;,&quot;AR PL UKai CN&quot;, &quot;NSimSun&quot;,&quot;Songti SC&quot;,&quot;SimSun&quot;,serif!important;
+font-style: normal;
+font-family: Georgia,&quot;Times New Roman&quot;,Times,&quot;楷体&quot;,&quot;AR PL UKai CN&quot;, &quot;NSimSun&quot;,&quot;Songti SC&quot;,&quot;SimSun&quot;,serif!important;
 }
 body dt,
 body dd {
-  line-height: 1.35em;
+line-height: 1.35em;
 }
 body code, body .xiaoshujiang_code {
 //	background-color: #D6DBDF;
-	border: 0;
-  border-radius: 4px;
+border: 0;
+border-radius: 4px;
 //  color: #2C3E50;
-  font-size: 90%;
+font-size: 90%;
 //  padding: 2px 4px;
 }
 code {
-	background-color: #D6DBDF;
-	border-radius: 4px;
-	color: #2C3E50;
-	padding: 2px 4px;
+background-color: #D6DBDF;
+border-radius: 4px;
+color: #2C3E50;
+padding: 2px 4px;
 }
 .xiaoshujiang_code ol{
-	margin-bottom: 0px;
+margin-bottom: 0px;
 }
 body h1 {
-  line-height: 1.6;
+line-height: 1.6;
 }
 body h2 {
-  line-hieght: 1.1;
+line-hieght: 1.1;
 }
 body h3 {
-  line-height: 1.1;
+line-height: 1.1;
 }
 
 /**
- * Treeview syntax highlighting based on highlight.js
- * Copyright (c) 2014-2015, Asciidocfx Team, (MIT Licensed)
- * https://github.com/asciidocfx/highlight-treeview.js
- */
+* Treeview syntax highlighting based on highlight.js
+* Copyright (c) 2014-2015, Asciidocfx Team, (MIT Licensed)
+* https://github.com/asciidocfx/highlight-treeview.js
+*/
 .language-treeview.hljs{
-  position: relative;
+position: relative;
 }
 .hljs-folder,
 .hljs-hiddenfile,
 .hljs-file {
-    position: relative;
-    vertical-align: top;
-    display: inline-block;
-    height: 16px;
+position: relative;
+vertical-align: top;
+display: inline-block;
+height: 16px;
 }
 .hljs-folder:before,
 .hljs-file:before,
 .hljs-hiddenfile:before {
-    top: 0;
-    content: &#39;&#39;;
-    width: 14px;
-    height: 12px;
-    margin-top: 0px;
-    margin-right: 3px;
-    position: relative;
-    display: inline-block;
-    background-size: 14px;
-    background-repeat: no-repeat;
+top: 0;
+content: &#39;&#39;;
+width: 14px;
+height: 12px;
+margin-top: 0px;
+margin-right: 3px;
+position: relative;
+display: inline-block;
+background-size: 14px;
+background-repeat: no-repeat;
 }
 .hljs-file:before,
 .hljs-hiddenfile:before {
-    height: 14px;
-    margin-left: 1px;
+height: 14px;
+margin-left: 1px;
 }
 .hljs-hiddenfile {
-    opacity: 0.6;
+opacity: 0.6;
 }
 .hljs-file.photo:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c5&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c5&quot;;
 }
 .hljs-file.plain:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f016&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f016&quot;;
 }
 .hljs-file.source:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c9&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c9&quot;;
 }
 .hljs-file.archive:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c6&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c6&quot;;
 }
 .hljs-file.audio:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c7&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c7&quot;;
 }
 .hljs-file.video:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c8&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c8&quot;;
 }
 .hljs-file.pdf:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c1&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c1&quot;;
 }
 .hljs-file.xls:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c3&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c3&quot;;
 }
 .hljs-file.doc:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c2&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c2&quot;;
 }
 .hljs-file.ppt:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f1c4&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f1c4&quot;;
 }
 .hljs-folder:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f114&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f114&quot;;
 }
 .hljs-hiddenfile:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	content: &quot;\f016&quot;;
+font: normal normal normal 14px/1 FontAwesome;
+content: &quot;\f016&quot;;
 }
 .hljs-tvline {
-    margin-left: 6px;
-    position: absolute;
-    text-indent: -99em;
-    padding-bottom: 8px;
-    vertical-align: top;
-    display: inline-block;
-    border-left-width: 1px;
-    border-left-style: solid;
-    border-left-color: rgb(94, 144, 117);
+margin-left: 6px;
+position: absolute;
+text-indent: -99em;
+padding-bottom: 8px;
+vertical-align: top;
+display: inline-block;
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: rgb(94, 144, 117);
 }
 .hljs-folder-branch {
-    width: 8px;
-    height: 8px;
-    margin-top: -1px;
-    margin-left: 6px;
-    text-indent: -99em;
-    position: relative;
-    vertical-align: top;
-    display: inline-block;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(94, 144, 117);
+width: 8px;
+height: 8px;
+margin-top: -1px;
+margin-left: 6px;
+text-indent: -99em;
+position: relative;
+vertical-align: top;
+display: inline-block;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: rgb(94, 144, 117);
 }
 .hljs-folder-branch.win {
-    width: 14px;
-    margin-right: 2px;
+width: 14px;
+margin-right: 2px;
 }
 .hljs-folder-last-branch {
-    height: 7px;
-    width: 7px;
-    margin-left: 6px;
-    text-indent: -99em;
-    position: relative;
-    vertical-align: top;
-    display: inline-block;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(94, 144, 117);
-    border-left-width: 1px;
-    border-left-style: solid;
-    border-left-color: rgb(94, 144, 117);
+height: 7px;
+width: 7px;
+margin-left: 6px;
+text-indent: -99em;
+position: relative;
+vertical-align: top;
+display: inline-block;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: rgb(94, 144, 117);
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: rgb(94, 144, 117);
 }
 .hljs-folder-last-branch.win {
-    width: 13px;
-    margin-right: 2px;
+width: 13px;
+margin-right: 2px;
 }
 
 
 /**
- * Treeview syntax highlighting based on highlight.js
- */
+* Treeview syntax highlighting based on highlight.js
+*/
 
 
 .mark{
-	border: 0;
-  background-color: #ddf3e7;
-  border-radius: 4px;
-  color: #29754d;
-  font-size: 90%;
-  padding: 2px 4px;
+border: 0;
+background-color: #ddf3e7;
+border-radius: 4px;
+color: #29754d;
+font-size: 90%;
+padding: 2px 4px;
 }
 .line_mark{
-	border: 1px dashed #3A4C42;
+border: 1px dashed #3A4C42;
 }
 code .mark, .xiaoshujiang_code .mark{
-	border-radius: 0px;
-	font-size: initial;
-	padding: initial;
+border-radius: 0px;
+font-size: initial;
+padding: initial;
 }
 a.attachment{
-	background-color: #ecf0f3;
-	border: 1px solid #bec6cb;
-	display: inline-block;
-	padding: 5px;
-	margin: 2px;
-	min-width: 250px;
+background-color: #ecf0f3;
+border: 1px solid #bec6cb;
+display: inline-block;
+padding: 5px;
+margin: 2px;
+min-width: 250px;
 }
 a.attachment i.fa{
-	font-size: 3em;
-  float: left;
-  margin-right: 0.2em;
+font-size: 3em;
+float: left;
+margin-right: 0.2em;
 }
 a.attachment .filename{
-	vertical-align: top;
-  text-align: left;
-  font-weight: bold;
+vertical-align: top;
+text-align: left;
+font-weight: bold;
 }
 a.attachment .filesize{
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  opacity: .6;
-  font-size: 80%;
-  white-space: nowrap;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+opacity: .6;
+font-size: 80%;
+white-space: nowrap;
 }
 .checkbox .checked{
-	text-decoration: line-through;
+text-decoration: line-through;
 }
 .flow-chart, .sequence-diagram{
-	text-align: center;
+text-align: center;
 }
 .plot, .plot-image{
-	text-align: center;
-	min-height: 200px;
-	min-width: 200px;
+text-align: center;
+min-height: 200px;
+min-width: 200px;
 }
 
 pre, .xiaoshujiang_pre {
-	line-height: initial !important;
-	word-wrap: break-word;
-	word-break: break-word;
+line-height: initial !important;
+word-wrap: break-word;
+word-break: break-word;
 }
 
 .xiaoshujiang_pre {
-	margin: 1em 0px;
-	font-family: monospace;
-	white-space: pre;
+margin: 1em 0px;
+font-family: monospace;
+white-space: pre;
 }
 
 .story_align_left, .story_align_left .story_image_container {
-	text-align: left;
+text-align: left;
 }
 .story_align_right, .story_align_right .story_image_container {
-	text-align: right;
+text-align: right;
 }
 .story_align_center, .story_align_center .story_image_container {
-	text-align: center;
+text-align: center;
 }
 .story_align_justify, .story_align_justify .story_image_container {
-	text-align: justify;
+text-align: justify;
 }
 
 
 /** 
- * code line nums
- */
+* code line nums
+*/
 code.hljs.code_linenums, .xiaoshujiang_code.hljs.code_linenums{
-	position: relative;
+position: relative;
 }
 .ol_linenums{
-	padding: 0px;
-	margin-left: 30px;
-	border-left: 1px solid #e0e0e0;
+padding: 0px;
+margin-left: 30px;
+border-left: 1px solid #e0e0e0;
 }
 .li_linenum{
-	line-height: 20px;
-	margin-left: 10px;
-	list-style: none;
-	counter-increment: lines 1;
+line-height: 20px;
+margin-left: 10px;
+list-style: none;
+counter-increment: lines 1;
 }
 .li_linenum.li_list_style{
-	list-style: inherit;
-	margin-left: 5px;
+list-style: inherit;
+margin-left: 5px;
 }
 .li_linenum:before, .li_linenum_before_span{
-	content: counter(lines, decimal);
-  position: absolute;
-  left: 0px;
-  text-align: center;
-  width: 2.5em;
-	opacity: 0.5;
-  vertical-align: top;
+content: counter(lines, decimal);
+position: absolute;
+left: 0px;
+text-align: center;
+width: 2.5em;
+opacity: 0.5;
+vertical-align: top;
 }
 .li_linenum_before_span_hide{
-	display: none;
+display: none;
 }
 .xiaoshujiang_code .code_line_break_hack{
-	margin:0;
-	border:0;
-	border-top:0;
-	border-bottom:0;
+margin:0;
+border:0;
+border-top:0;
+border-bottom:0;
 }
 /** 
- * code line nums
- */
+* code line nums
+*/
 .mathjax-container{
-	text-align: center;
+text-align: center;
 }
 div.mathjax{
-	max-width: 700px;
-	margin: 0 auto;
-	font-size: 14px;
+max-width: 700px;
+margin: 0 auto;
+font-size: 14px;
 }
 text{
-	font-size: 14px;
+font-size: 14px;
 }
 
 /**
- * block image
- */
+* block image
+*/
 
 .story_image_container{
-	text-align: center;
+text-align: center;
 }
 .story_image_container&gt;.story_image{
-	display: inline-block;
-  position: relative;
-	max-width: 80%;
+display: inline-block;
+position: relative;
+max-width: 80%;
 }
 .story_image_caption{
-	border-bottom: 1px solid #d9d9d9;
-	display: inline-block;
-	color: #999;
-	padding: 10px;
+border-bottom: 1px solid #d9d9d9;
+display: inline-block;
+color: #999;
+padding: 10px;
 }
 .story_image_blank_caption{
-	border-bottom: 0px;
+border-bottom: 0px;
 }
 /**
 .story_image:before, .story_image:after{
-	content: &#39;&#39;;
-	position: absolute;
-	z-index: -2;
-	bottom: 13px;
-	left: 10px;
-	width: 50%;
-	height: 20%;
-	border-radius: 10px/90px;
-	box-shadow: 0 15px 10px rgba(0,0,0,0.7);
-	-webkit-transform: rotate(-3deg);
-	-moz-transform: rotate(-3deg);
-	-ms-transform: rotate(-3deg);
-	-o-transform: rotate(-3deg);
-	transform: rotate(-3deg);
+content: &#39;&#39;;
+position: absolute;
+z-index: -2;
+bottom: 13px;
+left: 10px;
+width: 50%;
+height: 20%;
+border-radius: 10px/90px;
+box-shadow: 0 15px 10px rgba(0,0,0,0.7);
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+transform: rotate(-3deg);
 }
 .story_image:after {
-	right: 10px;
-	left: auto;
-	-webkit-transform: rotate(3deg);
-	-moz-transform: rotate(3deg);
-	-ms-transform: rotate(3deg);
-	-o-transform: rotate(3deg);
-	transform: rotate(3deg);
+right: 10px;
+left: auto;
+-webkit-transform: rotate(3deg);
+-moz-transform: rotate(3deg);
+-ms-transform: rotate(3deg);
+-o-transform: rotate(3deg);
+transform: rotate(3deg);
 }
 
 **/
 .story_image&gt;img{
-	border-radius: 0.3125em;
-	box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);
+border-radius: 0.3125em;
+box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);
 }
 .story_inline_image&gt;img{
-	max-width: 50%;
-	vertical-align: bottom;
+max-width: 50%;
+vertical-align: bottom;
 }
 
 /*
-    Paraíso (light)
-    Created by Jan T. Sott (http://github.com/idleberg)
-    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+
+XCode style (c) Angel Garcia &lt;angelgarcia.mail@gmail.com&gt;
+
 */
 
-/* Paraíso Comment */
-.hljs-comment,
-.hljs-title {
-  color: #776e71;
-}
-
-/* Paraíso Red */
-.hljs-variable,
-.hljs-attribute,
-.hljs-tag,
-.hljs-regexp,
-.hljs-name,
-.ruby .hljs-constant,
-.xml .hljs-tag .hljs-title,
-.xml .hljs-pi,
-.xml .hljs-doctype,
-.html .hljs-doctype,
-.css .hljs-id,
-.css .hljs-class,
-.css .hljs-pseudo {
-  color: #ef6155;
-}
-
-/* Paraíso Orange */
-.hljs-number,
-.hljs-preprocessor,
-.hljs-built_in,
-.hljs-literal,
-.hljs-params,
-.hljs-constant {
-  color: #f99b15;
-}
-
-/* Paraíso Yellow */
-.ruby .hljs-class .hljs-title,
-.css .hljs-rule .hljs-attribute {
-  color: #fec418;
-}
-
-/* Paraíso Green */
-.hljs-string,
-.hljs-value,
-.hljs-inheritance,
-.hljs-header,
-.ruby .hljs-symbol,
-.xml .hljs-cdata {
-  color: #48b685;
-}
-
-/* Paraíso Aqua */
-.css .hljs-hexcolor {
-  color: #5bc4bf;
-}
-
-/* Paraíso Blue */
-.hljs-function,
-.python .hljs-decorator,
-.python .hljs-title,
-.ruby .hljs-function .hljs-title,
-.ruby .hljs-title .hljs-keyword,
-.perl .hljs-sub,
-.javascript .hljs-title,
-.coffeescript .hljs-title {
-  color: #06b6ef;
-}
-
-/* Paraíso Purple */
-.hljs-keyword,
-.javascript .hljs-function {
-  color: #815ba4;
-}
-
 .hljs {
-  display: block;
-  overflow-x: auto;
-  background: #e7e9db;
-  color: #4f424c;
-  padding: 0.5em;
-  -webkit-text-size-adjust: none;
+display: block;
+overflow-x: auto;
+padding: 0.5em;
+background: #fff;
+color: black;
+-webkit-text-size-adjust: none;
 }
 
-.coffeescript .javascript,
-.javascript .xml,
-.tex .hljs-formula,
-.xml .javascript,
-.xml .vbscript,
-.xml .css,
-.xml .hljs-cdata {
-  opacity: 0.5;
+.hljs-comment,
+.hljs-javadoc {
+color: #006a00;
+}
+
+.hljs-keyword,
+.hljs-literal,
+.nginx .hljs-title {
+color: #aa0d91;
+}
+.method,
+.hljs-list .hljs-title,
+.hljs-tag .hljs-title,
+.setting .hljs-value,
+.hljs-winutils,
+.tex .hljs-command,
+.http .hljs-title,
+.hljs-request,
+.hljs-status,
+.hljs-name {
+color: #008;
+}
+
+.hljs-envvar,
+.tex .hljs-special {
+color: #660;
+}
+
+.hljs-string {
+color: #c41a16;
+}
+.hljs-tag .hljs-value,
+.hljs-cdata,
+.hljs-filter .hljs-argument,
+.hljs-attr_selector,
+.apache .hljs-cbracket,
+.hljs-date,
+.hljs-regexp {
+color: #080;
+}
+
+.hljs-sub .hljs-identifier,
+.hljs-pi,
+.hljs-tag,
+.hljs-tag .hljs-keyword,
+.hljs-decorator,
+.ini .hljs-title,
+.hljs-shebang,
+.hljs-prompt,
+.hljs-hexcolor,
+.hljs-rule .hljs-value,
+.hljs-symbol,
+.hljs-symbol .hljs-string,
+.hljs-number,
+.css .hljs-function,
+.hljs-function .hljs-title,
+.coffeescript .hljs-attribute {
+color: #1c00cf;
+}
+
+.hljs-class .hljs-title,
+.smalltalk .hljs-class,
+.hljs-javadoctag,
+.hljs-yardoctag,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.hljs-type,
+.hljs-typename,
+.hljs-tag .hljs-attribute,
+.hljs-doctype,
+.hljs-class .hljs-id,
+.hljs-built_in,
+.setting,
+.hljs-params,
+.clojure .hljs-attribute {
+color: #5c2699;
+}
+
+.hljs-variable {
+color: #3f6e74;
+}
+.css .hljs-tag,
+.hljs-rule .hljs-property,
+.hljs-pseudo,
+.hljs-subst {
+color: #000;
+}
+
+.css .hljs-class,
+.css .hljs-id {
+color: #9b703f;
+}
+
+.hljs-value .hljs-important {
+color: #ff7700;
+font-weight: bold;
+}
+
+.hljs-rule .hljs-keyword {
+color: #c5af75;
+}
+
+.hljs-annotation,
+.apache .hljs-sqbracket,
+.nginx .hljs-built_in {
+color: #9b859d;
+}
+
+.hljs-preprocessor,
+.hljs-preprocessor *,
+.hljs-pragma {
+color: #643820;
+}
+
+.tex .hljs-formula {
+background-color: #eee;
+font-style: italic;
+}
+
+.diff .hljs-header,
+.hljs-chunk {
+color: #808080;
+font-weight: bold;
+}
+
+.diff .hljs-change {
+background-color: #bccff9;
+}
+
+.hljs-addition {
+background-color: #baeeba;
+}
+
+.hljs-deletion {
+background-color: #ffc8bd;
+}
+
+.hljs-comment .hljs-yardoctag {
+font-weight: bold;
+}
+
+.method .hljs-id {
+color: #000;
 }
 
 
@@ -1639,12 +1763,14 @@ text{
     
     </summary>
     
-      <category term="web前端" scheme="https://QCU266.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+      <category term="Web" scheme="https://QCU266.github.io/categories/Web/"/>
+    
+      <category term="前端" scheme="https://QCU266.github.io/categories/Web/%E5%89%8D%E7%AB%AF/"/>
     
     
       <category term="HTML5" scheme="https://QCU266.github.io/tags/HTML5/"/>
     
-      <category term="web" scheme="https://QCU266.github.io/tags/web/"/>
+      <category term="Web" scheme="https://QCU266.github.io/tags/Web/"/>
     
   </entry>
   
