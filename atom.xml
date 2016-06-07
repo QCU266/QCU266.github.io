@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://QCU266.github.io/"/>
-  <updated>2016-04-29T05:59:50.832Z</updated>
+  <updated>2016-06-07T04:47:07.686Z</updated>
   <id>https://QCU266.github.io/</id>
   
   <author>
@@ -14,6 +14,130 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vim Python 支持</title>
+    <link href="https://QCU266.github.io/2016/06/07/tips/"/>
+    <id>https://QCU266.github.io/2016/06/07/tips/</id>
+    <published>2016-06-07T12:00:00.000Z</published>
+    <updated>2016-06-07T04:47:07.686Z</updated>
+    
+    <content type="html">&lt;p&gt;debian的Jessie默认安装的 vim 不支持 python, &lt;a href=&quot;http://ju.outofmemory.cn/entry/192077&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;在这里&lt;/a&gt;找到解决方案：应该再安装一个 vim-nox 的包。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;debian的Jessie默认安装的 vim 不支持 python, &lt;a href=&quot;http://ju.outofmemory.cn/entry/192077&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;在这里&lt;/a&gt;找到解决方案：应该再安装一个 v
+    
+    </summary>
+    
+      <category term="python" scheme="https://QCU266.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://QCU266.github.io/tags/python/"/>
+    
+      <category term="enviroment" scheme="https://QCU266.github.io/tags/enviroment/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工具汇总</title>
+    <link href="https://QCU266.github.io/2016/06/01/Tools/"/>
+    <id>https://QCU266.github.io/2016/06/01/Tools/</id>
+    <published>2016-06-01T14:09:00.000Z</published>
+    <updated>2016-06-02T14:20:00.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Linux-平台&quot;&gt;&lt;a href=&quot;#Linux-平台&quot; class=&quot;headerlink&quot; title=&quot;Linux 平台&quot;&gt;&lt;/a&gt;Linux 平台&lt;/h2&gt;&lt;h3 id=&quot;开发工具&quot;&gt;&lt;a href=&quot;#开发工具&quot; class=&quot;headerlink&quot; title=&quot;开发工具&quot;&gt;&lt;/a&gt;开发工具&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;编辑器&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;VIM, 编辑器之神&lt;/li&gt;
+&lt;li&gt;Emacs, 神的编辑器&lt;/li&gt;
+&lt;li&gt;gedit, 简单&lt;/li&gt;
+&lt;li&gt;nano&lt;/li&gt;
+&lt;li&gt;Sublime Text 3 &lt;/li&gt;
+&lt;li&gt;ReText, markdown 编辑器&lt;/li&gt;
+&lt;li&gt;小书匠, Markdown 编辑器&lt;/li&gt;
+&lt;li&gt;马克飞象， Markdown 编辑器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IDE&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Code::Blocks&lt;/li&gt;
+&lt;li&gt;Eclipse&lt;/li&gt;
+&lt;li&gt;IntelliJ IDEA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;文档处理&quot;&gt;&lt;a href=&quot;#文档处理&quot; class=&quot;headerlink&quot; title=&quot;文档处理&quot;&gt;&lt;/a&gt;文档处理&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WPS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;脑图工具&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Freeplane&lt;/li&gt;
+&lt;li&gt;Xmind&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;互联网&quot;&gt;&lt;a href=&quot;#互联网&quot; class=&quot;headerlink&quot; title=&quot;互联网&quot;&gt;&lt;/a&gt;互联网&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;浏览器&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Console&lt;/li&gt;
+&lt;li&gt;Graphical&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;下载&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;wget&lt;/li&gt;
+&lt;li&gt;aria2c&lt;/li&gt;
+&lt;li&gt;Transmission&lt;/li&gt;
+&lt;li&gt;curl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通讯&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Xchat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;多媒体&quot;&gt;&lt;a href=&quot;#多媒体&quot; class=&quot;headerlink&quot; title=&quot;多媒体&quot;&gt;&lt;/a&gt;多媒体&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;图像处理&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音频&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;视频&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;系统工具&quot;&gt;&lt;a href=&quot;#系统工具&quot; class=&quot;headerlink&quot; title=&quot;系统工具&quot;&gt;&lt;/a&gt;系统工具&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;磁盘管理&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文件管理&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入法&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;系统美化&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;科学&quot;&gt;&lt;a href=&quot;#科学&quot; class=&quot;headerlink&quot; title=&quot;科学&quot;&gt;&lt;/a&gt;科学&lt;/h3&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Linux-平台&quot;&gt;&lt;a href=&quot;#Linux-平台&quot; class=&quot;headerlink&quot; title=&quot;Linux 平台&quot;&gt;&lt;/a&gt;Linux 平台&lt;/h2&gt;&lt;h3 id=&quot;开发工具&quot;&gt;&lt;a href=&quot;#开发工具&quot; class=&quot;headerlink&quot; 
+    
+    </summary>
+    
+      <category term="Tools" scheme="https://QCU266.github.io/categories/Tools/"/>
+    
+    
+      <category term="Tools" scheme="https://QCU266.github.io/tags/Tools/"/>
+    
+      <category term="Software" scheme="https://QCU266.github.io/tags/Software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>墙</title>
+    <link href="https://QCU266.github.io/2016/05/02/%E5%A2%99/"/>
+    <id>https://QCU266.github.io/2016/05/02/墙/</id>
+    <published>2016-05-01T23:51:00.000Z</published>
+    <updated>2016-05-01T15:52:43.979Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="https://QCU266.github.io/tags/Note/"/>
+    
+  </entry>
   
   <entry>
     <title>从HTML5新特性看B/S缺陷</title>
