@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://QCU266.github.io/"/>
-  <updated>2016-06-07T04:47:07.686Z</updated>
+  <updated>2016-06-12T05:28:07.670Z</updated>
   <id>https://QCU266.github.io/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Grub引导修复</title>
+    <link href="https://QCU266.github.io/2016/06/12/Grub%E5%BC%95%E5%AF%BC%E4%BF%AE%E5%A4%8D/"/>
+    <id>https://QCU266.github.io/2016/06/12/Grub引导修复/</id>
+    <published>2016-06-12T12:55:00.000Z</published>
+    <updated>2016-06-12T05:28:07.670Z</updated>
+    
+    <content type="html">&lt;p&gt;电脑小白鼠当多了,肯定会遇到被玩坏的那一天，当你的电脑无法启动了。有时是因为grub引导出问题了，这时可以使用linux 各种发行版的live CD 来修复。&lt;/p&gt;
+&lt;p&gt;在这里，我用的是 Ubuntu Live CD 。 比如我在 sda1 安装了 Archlinux, 现在无法进入系统了，需要修复引导。&lt;/p&gt;
+&lt;h3 id=&quot;0-制作-Ubuntu-启动盘&quot;&gt;&lt;a href=&quot;#0-制作-Ubuntu-启动盘&quot; class=&quot;headerlink&quot; title=&quot;0. 制作 Ubuntu 启动盘&quot;&gt;&lt;/a&gt;0. 制作 Ubuntu 启动盘&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo dd &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;=ubuntu-××××××.iso of=/dev/sdX &lt;span class=&quot;comment&quot;&gt;#/dev/sdX 是你的usb盘符, ubuntu-××××××.iso 是你要制作的启动盘的ubuntu 文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;1-从USB启动进入Ubuntu使用环境&quot;&gt;&lt;a href=&quot;#1-从USB启动进入Ubuntu使用环境&quot; class=&quot;headerlink&quot; title=&quot;1. 从USB启动进入Ubuntu使用环境&quot;&gt;&lt;/a&gt;1. 从USB启动进入Ubuntu使用环境&lt;/h3&gt;&lt;h3 id=&quot;2-挂载-Archlinux-安装分区&quot;&gt;&lt;a href=&quot;#2-挂载-Archlinux-安装分区&quot; class=&quot;headerlink&quot; title=&quot;2. 挂载 Archlinux 安装分区&quot;&gt;&lt;/a&gt;2. 挂载 Archlinux 安装分区&lt;/h3&gt;&lt;p&gt;可以先用&lt;code&gt;sudo fdisk -l&lt;/code&gt;或&lt;code&gt;sudo lsblk&lt;/code&gt; 查看你的硬盘分区情况，确定 Archlinux 的安装分区盘符。&lt;br&gt;在这我的是sda1，确定好后就可以挂载分区了。&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo mount /dev/sda1 /mnt &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#接下来的这些是待会执行修复时需要的目录&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo mount --bind /dev  /mnt/dev  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo mount --bind /proc /mnt/proc&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo mount --bind /sys  /mnt/sys&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;3-chroot-到硬盘上的-Linux-系统&quot;&gt;&lt;a href=&quot;#3-chroot-到硬盘上的-Linux-系统&quot; class=&quot;headerlink&quot; title=&quot;3. chroot 到硬盘上的 Linux 系统&quot;&gt;&lt;/a&gt;3. chroot 到硬盘上的 Linux 系统&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo chroot /mnt&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;4-安装和更新grub&quot;&gt;&lt;a href=&quot;#4-安装和更新grub&quot; class=&quot;headerlink&quot; title=&quot;4. 安装和更新grub&quot;&gt;&lt;/a&gt;4. 安装和更新grub&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;grub-install /dev/sda&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;grub-mkconfig -o /boot/grub/grub.cfg&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;5-grub-修复成功，正确退出姿势&quot;&gt;&lt;a href=&quot;#5-grub-修复成功，正确退出姿势&quot; class=&quot;headerlink&quot; title=&quot;5. grub 修复成功，正确退出姿势&quot;&gt;&lt;/a&gt;5. grub 修复成功，正确退出姿势&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;exit&lt;/span&gt;                &lt;span class=&quot;comment&quot;&gt;#退出 chroot 环境&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo umount -R /mnt&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;6-reboot&quot;&gt;&lt;a href=&quot;#6-reboot&quot; class=&quot;headerlink&quot; title=&quot;6. reboot&quot;&gt;&lt;/a&gt;6. reboot&lt;/h3&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;电脑小白鼠当多了,肯定会遇到被玩坏的那一天，当你的电脑无法启动了。有时是因为grub引导出问题了，这时可以使用linux 各种发行版的live CD 来修复。&lt;/p&gt;
+&lt;p&gt;在这里，我用的是 Ubuntu Live CD 。 比如我在 sda1 安装了 Archlinux,
+    
+    </summary>
+    
+      <category term="linux" scheme="https://QCU266.github.io/categories/linux/"/>
+    
+      <category term="system" scheme="https://QCU266.github.io/categories/linux/system/"/>
+    
+    
+      <category term="linux" scheme="https://QCU266.github.io/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Vim Python 支持</title>
